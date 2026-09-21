@@ -1,0 +1,105 @@
+# Condiciones de la ronda y guía de negociación
+
+> Base: Modelo Financiero **V14** (20/07/2026) y contexto de compañía a 21/09/2026.
+> Confidencial, uso interno. **No** entregar este documento a inversores: es la chuleta de los fundadores.
+
+---
+
+## 1. La oferta base (lo que se pone encima de la mesa)
+
+| Concepto | Condición |
+|---|---|
+| Importe buscado (privado) | **100.000 €** (o varios tickets de 20-50 k€) |
+| Complemento público | 100.000 € ENISA (en tramitación con asesora) |
+| Necesidad real del plan | **161.278 €** → cobertura **1,24x** |
+| Escenario suelo | 130.000 € totales |
+| Instrumento principal | **Préstamo participativo**: interés fijo + variable sobre EBITDA |
+| Equity kicker | **~2,5 %** |
+| Parte en capital | Ampliación con prima — referencia **750 €/participación**, escalón inferior **500 €/participación** |
+| Objetivo de fondos propios | ~48.000 € (desbloquea ENISA y SAECA, apalancamiento ~1:1) |
+| Dividendos | **Bloqueados hasta amortizar ENISA** (condición de ENISA) |
+| Retorno del inversor | Vía intereses del participativo + valor del kicker |
+
+### Retornos que puedes defender (Modelo V14)
+
+| Escenario | min/bandeja | Margen EBITDA régimen | TIR | MOIC | Payback |
+|---|---|---|---|---|---|
+| Conservador | 4 | 11,2 % | **16,3 %** | 1,47x | 39 meses |
+| **Base** | **3** | **35,3 %** | **33,0 %** | **2,39x** | **33 meses** |
+| Optimista | 2 | 49,7 % | 43,8 % | 3,18x | 29 meses |
+
+**DSCR mínimo (años 2-7) en base: 3,70x.** Es el número que convence a un prestamista.
+
+---
+
+## 2. Líneas rojas — innegociables
+
+1. **Sin cesión de control.** Los tres fundadores mantienen la mayoría. Siempre.
+2. **Dilución mínima:** solo el kicker.
+3. **Sin avales personales.**
+
+Si un inversor exige cualquiera de las tres, **no es tu inversor** — y decirlo pronto te ahorra seis semanas que no tienes.
+
+---
+
+## 3. Escalera de concesiones (en este orden, no lo alteres)
+
+Cede siempre lo más barato primero. Lo que está arriba es casi gratis; lo que está abajo duele.
+
+1. **Información y control de gestión** — reporting mensual, acceso a ERP, reunión trimestral. Gratis. Concédelo de entrada, genera confianza.
+2. **Tipo de interés del participativo** — sube el fijo antes que tocar el equity. Cada punto de interés cuesta mucho menos que un punto de capital.
+3. **Tramo variable sobre EBITDA** — amplíalo. Solo paga si va bien, y si va bien puedes pagarlo.
+4. **Derechos de protección minoritaria** — antidilución estándar, tag-along, derecho de información reforzado. Barato.
+5. **Calendario de amortización** — alarga o acorta carencia. Cuidado: tiene que convivir con ENISA.
+6. **Kicker: de 2,5 % a 3-4 %** — ya duele, pero es asumible por un ticket completo de 100 k€.
+7. **Precio por participación: 750 € → 500 €** — el escalón previsto. Úsalo solo si el 30/09 no hay ≥3 conversaciones serias, tal y como marca el plan.
+8. **Puesto de observador en el consejo (sin voto)** — última concesión antes de decir que no.
+
+**Nunca:** voto de calidad, derecho de veto sobre operativa, mayoría, o avales.
+
+---
+
+## 4. Estructuras alternativas según el tipo de inversor
+
+| Perfil | Estructura que mejor le encaja | Por qué |
+|---|---|---|
+| **Industrial agro** | Participativo + kicker + **contrato de suministro/marca blanca** | Su retorno real está en el producto, no en la TIR. El acuerdo comercial es el gancho. |
+| **Distribuidor / HORECA** | **Cuentas en participación** + precio preferente | No quiere complicarse con el Registro Mercantil; quiere producto y margen. |
+| **Family office** | Participativo + kicker, ticket completo de 100 k€ | Quiere downside protegido y un activo real. Vende el DSCR y la garantía implícita del apalancamiento público. |
+| **Business angel** | **CeP de 20-25 k€** (Plan C) o participativo pequeño | Ticket pequeño, trámite simple, deducción en IRPF. |
+| **Fondo de deuda** | Deuda subordinada o participativo **sin kicker**, tipo más alto | No quiere equity, quiere cupón y cobertura. Dale DSCR y pipeline. |
+| **VC** | Equity puro — **solo si acepta minoría pequeña** | Encaje estructuralmente malo con 100 k€ y sin ceder control. No pierdas semanas aquí. |
+
+---
+
+## 5. Preguntas que te van a hacer — y la respuesta corta
+
+| Pregunta | Respuesta |
+|---|---|
+| *"¿Cuánto facturáis hoy?"* | ⚠️ **Dato pendiente de completar.** Ten la cifra real de 2026 y el nº de clientes activos antes del primer email. Es la primera pregunta de todos. |
+| *"¿Por qué 2,5 % vale 45.000 €?"* | Justifica con el plan: EBITDA de 460 k€ en régimen. Ten preparada la valoración implícita y el múltiplo de salida. **Ver sección 7 — hay que cerrar este número antes de salir.** |
+| *"¿Y si ENISA no aprueba?"* | Escenario suelo de 130 k€; SAECA-ICO-MAPA como alternativa para CAPEX duro; la nave puede dimensionarse a la baja. No lo escondas: tener plan B da credibilidad. |
+| *"¿Qué pasa si os copia un grande?"* | Ya está pasando (Florete). Nuestra defensa es KM 0 real, flexibilidad de formato y relación directa con el chef — cosas que un grupo grande no replica bien. |
+| *"¿Quién manda si discrepáis los tres?"* | Administrador Único (Nicolás Bustamante), roles separados y pacto de socios en noviembre. |
+| *"¿Cuándo cobro?"* | Intereses del participativo desde el primer año; dividendos bloqueados hasta amortizar ENISA; payback completo a 33 meses en base. |
+| *"¿Puedo visitar?"* | **Sí, cuando quieras.** Es tu mejor respuesta — úsala como cierre siempre. |
+
+---
+
+## 6. Señales de que un inversor es real (o no)
+
+**Sí va en serio:** pide el NDA sin que insistas · pregunta por unit economics, no por la visión · quiere visitar · presenta a su asesor fiscal o a un socio · pregunta por el calendario de cierre.
+
+**No va en serio:** pide el modelo financiero sin firmar NDA · solo habla de valoración · promete un ticket muy por encima de lo que pides · desaparece más de 2 semanas sin motivo · quiere exclusividad para "estudiarlo" sin term sheet.
+
+---
+
+## 7. ⚠️ Cerrar antes de salir al mercado
+
+Tres cosas que un inversor sofisticado va a preguntar en la primera reunión y que hoy no están cerradas:
+
+1. **Facturación real acumulada 2026, nº de clientes activos y kg/mes.** Están marcados como pendientes en el contexto de compañía. Sin este dato el pitch se cae en el minuto 4.
+2. **Valoración implícita y % exacto del inversor.** El contexto dice kicker ~2,5 % y aportación de ~45.000 € en capital a 750 €/participación, partiendo de un capital social de 30 €. Esas tres cifras hay que cuadrarlas en una tabla de cap table **pre y post** y tener una única respuesta. Si el 2,5 % corresponde a los 45 k€, la valoración post implícita ronda **1,8 M€** — un número alto para una empresa constituida en marzo de 2026, y te lo van a discutir. Prepárate a justificarlo con el EBITDA de régimen y el múltiplo de salida, o a ajustar el escalón.
+3. **Estado de la certificación de Empresa Emergente (Ley 28/2022)** y porcentajes vigentes de la deducción autonómica de Madrid. No prometas una ventaja fiscal sin confirmarla: si falla, pierdes credibilidad en todo lo demás.
+
+Añade el resultado de la sesión con Primaflor (17/09) y el estado de Garret y Juan Urquijo: tener conversaciones vivas es la mejor palanca de urgencia con un inversor nuevo.
