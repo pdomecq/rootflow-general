@@ -33,9 +33,9 @@ Soy Pedro Domecq, cofundador de Rootflow Hydroponics y consultor de M&A mid-mark
 
 Rootflow produce microbrotes premium en hidroponía de interior en Las Rozas. Vendemos a restauración premium y distribución, con **el 77,5 % de los ingresos del primer año ya identificados en pipeline**.
 
-Levantamos **100 k€ de inversor privado** que apalancan otros 100 k€ de ENISA (~1:1 de dinero público). El instrumento es **préstamo participativo con kicker del 2,5 %**, no equity puro: el downside queda protegido y no hay cesión de control ni avales personales.
+Levantamos **100 k€ de inversor privado** que apalancan otros 100 k€ de ENISA: cada euro suyo moviliza otro de dinero público. La entrada es **en capital con prima de emisión, con preferencia de liquidación 1x y antidilución** — participación minoritaria, sin cesión de control y sin avales personales.
 
-Escenario base del modelo: **TIR 33 %, MOIC 2,39x, payback 33 meses**. En escenario conservador, TIR del 16 %.
+El negocio en régimen: **1,3 M€ de ingresos y 460 k€ de EBITDA (35 %)**, con margen bruto del 74-77 % y el **77,5 % de los ingresos del primer año ya identificados**.
 
 Es un activo real y **visitable a 20 minutos de Madrid**. ¿Le viene bien una llamada de 20 minutos esta semana?
 
@@ -53,9 +53,9 @@ Te escribo porque [razón concreta: fundaste X / inviertes en food / tienes red 
 
 Rootflow cultiva **microbrotes premium en hidroponía de interior en Las Rozas** y los sirve a restauración premium de Madrid cortados bajo pedido, en 24-48 h. Somos tres fundadores, sociedad constituida, ya facturando, con ERP propio en producción.
 
-Abrimos **100 k€** (aceptamos tickets desde 20 k€, en préstamo participativo o cuentas en participación) para saltar a una nave y multiplicar capacidad por 18. En paralelo tramitamos 100 k€ de ENISA.
+Abrimos **100 k€ en capital** (aceptamos tickets desde 20 k€) para saltar a una nave y multiplicar capacidad por 18. En paralelo tramitamos 100 k€ de ENISA, que exige que el dinero privado entre como fondos propios.
 
-Base: **TIR 33 %, payback 33 meses**. Además aplica **deducción en IRPF** por inversión en empresa de nueva creación.
+En régimen el negocio hace **1,3 M€ de ingresos y 460 k€ de EBITDA**. Además aplica **deducción en IRPF** por inversión en empresa de nueva creación.
 
 Lo mejor: **lo puedes ver**. Estamos a 20 minutos, te enseño el cultivo y catas el producto. ¿Te apetece un café o una visita?
 
@@ -73,7 +73,7 @@ Soy Pedro Domecq, de Rootflow. Producimos microbrotes y flores comestibles en Ma
 
 Ya trabajamos con La Huerta de Aranjuez (con un microblend co-desarrollado) y Frutas Eloy, y tenemos acuerdo de consignación en marcha con Mercamadrid. Hacemos **marca blanca** y formatos a medida de 5 a 100 g.
 
-Estamos ampliando capacidad x18 y, además del acuerdo comercial, abrimos una ronda pequeña por si a [EMPRESA] le interesa **asegurar suministro diferencial entrando también en el capital** (tickets desde 20 k€).
+Estamos ampliando capacidad x18 y, además del acuerdo comercial, abrimos una ronda pequeña por si a [EMPRESA] le interesa **asegurar suministro diferencial entrando también en el capital**, con participación minoritaria (tickets desde 20 k€).
 
 ¿Te mando muestras y hablamos 20 minutos?
 
@@ -83,18 +83,18 @@ Un saludo,
 
 ## E. Fondo de deuda alternativa / crowdlending / venture debt
 
-**Asunto:** Operación de deuda 100 k€ — DSCR 3,7x, flujos B2B contractualizados
+**Asunto:** Circulante y factoring para pyme agroalimentaria — DSCR 3,7x, flujos B2B contractualizados
 
 Buenos días:
 
-Rootflow Hydroponics (Madrid, CNAE 0119) busca **100 k€ de financiación privada** para ampliación de capacidad productiva, en paralelo a 100 k€ de ENISA ya en tramitación.
+Rootflow Hydroponics (Madrid, CNAE 0119) busca **financiación de circulante** (factoring y póliza) para acompañar una ampliación de capacidad productiva. La ronda de capital y el tramo de ENISA van por separado y ya están en marcha.
 
 Perfil de la operación:
 - **DSCR mínimo 3,70x** (años 2-7) en escenario base.
 - **77,5 % de los ingresos del Año 1 ya identificados** en pipeline B2B (distribución y HORECA).
 - Margen bruto 74-77 %; EBITDA del 35 % en régimen.
 - Factoring del 60 % de facturas y póliza de 50 k€ ya planificados para circulante.
-- Instrumento preferido: préstamo participativo o deuda subordinada. **Sin avales personales.**
+- Buscamos factoring sobre facturas de distribución y póliza de circulante. **Sin avales personales** (con aval de SGR si hace falta).
 
 Podemos compartir el modelo financiero completo bajo NDA. ¿Con quién puedo revisar el encaje?
 

@@ -1,5 +1,14 @@
 # Condiciones de la ronda y guía de negociación
 
+> ⚠️ **REVISADO EL 21/09/2026 — LA ESTRUCTURA HA CAMBIADO.**
+> El préstamo participativo privado **queda descartado**: rompe el requisito de fondos propios de ENISA.
+> **Lee primero `ESTRUCTURA_DE_LA_RONDA.md`**, que explica el motivo y la estructura que lo sustituye
+> (entrada íntegra en capital, vía nota convertible en octubre y capitalización antes de que ENISA formalice).
+> Lo que sigue conserva la escalera de concesiones y los guiones de negociación, que siguen siendo válidos,
+> pero **donde diga "participativo" hay que leer "capital con preferencia de liquidación"**.
+> Las cifras de TIR, MOIC y payback del modelo V14 están calculadas sobre el tramo participativo
+> y **hay que recalcularlas antes de usarlas con un inversor**.
+
 > Base: Modelo Financiero **V14** (20/07/2026) y contexto de compañía a 21/09/2026.
 > Confidencial, uso interno. **No** entregar este documento a inversores: es la chuleta de los fundadores.
 
