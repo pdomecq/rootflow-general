@@ -127,12 +127,18 @@ def main():
     ws.cell(row=len(info), column=1).font = Font(bold=True, size=10, color=ROJO)
 
     # --- Top 30 --------------------------------------------------------------
+    # El Top 30 es la lista de "llamar manana": solo entidades verificadas.
+    # Lo que puntua alto pero no esta verificado va a su propia pestana.
     activos = [r for r in rows if r["estado"] != "ya_en_pipeline"]
-    top = sorted(activos, key=lambda r: -int(float(r["score"] or 0)))[:30]
+    fiables = [r for r in activos if r["confianza"] in ("alta", "media")]
+    top = sorted(fiables, key=lambda r: -int(float(r["score"] or 0)))[:30]
+    dudosos = sorted([r for r in activos if r["confianza"] == "baja"
+                      and int(float(r["score"] or 0)) >= 50],
+                     key=lambda r: -int(float(r["score"] or 0)))
     for r in top: r["siguiente_paso"] = siguiente_paso(r)
     COLS_TOP = ["entidad","tipo","ciudad","web","score","tier","ticket_min_eur","ticket_max_eur",
                 "instrumentos","angulo_pitch","via_entrada","siguiente_paso","persona_contacto",
-                "cargo","email_publico","red_flags","estado","fuente_url_1"]
+                "cargo","email_publico","red_flags","confianza","estado","fuente_url_1"]
     estilar(wb.create_sheet("Top 30"), COLS_TOP, top)
 
     # --- Consolidado ---------------------------------------------------------
@@ -164,6 +170,13 @@ def main():
     if desc:
         estilar(wb.create_sheet("Descartados"),
                 ["entidad","tipo","ciudad","web","score","tier","motivo_descarte","red_flags","fuente_url_1"], desc)
+
+    # --- Verificar a mano ----------------------------------------------------
+    if dudosos:
+        for r in dudosos: r["siguiente_paso"] = "VERIFICAR existencia y tesis antes de contactar"
+        estilar(wb.create_sheet("Verificar a mano"),
+                ["entidad","tipo","ciudad","web","score","tier","confianza","tesis_resumen",
+                 "red_flags","siguiente_paso","fuente_url_1"], dudosos)
 
     # --- Fuentes -------------------------------------------------------------
     fuentes = defaultdict(list)
