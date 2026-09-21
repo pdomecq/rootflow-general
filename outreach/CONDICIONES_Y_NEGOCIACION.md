@@ -103,3 +103,23 @@ Tres cosas que un inversor sofisticado va a preguntar en la primera reunión y q
 3. **Estado de la certificación de Empresa Emergente (Ley 28/2022)** y porcentajes vigentes de la deducción autonómica de Madrid. No prometas una ventaja fiscal sin confirmarla: si falla, pierdes credibilidad en todo lo demás.
 
 Añade el resultado de la sesión con Primaflor (17/09) y el estado de Garret y Juan Urquijo: tener conversaciones vivas es la mejor palanca de urgencia con un inversor nuevo.
+
+---
+
+## 8. Benchmark externo — úsalo cuando te aprieten las condiciones
+
+**StartLife Pre-seed Fund** (Wageningen, Países Bajos) publica condiciones de un instrumento casi idéntico al que buscas:
+
+| Parámetro | StartLife |
+|---|---|
+| Importe | **100.000 €** |
+| Instrumento | Deuda subordinada |
+| Interés | **3 % anual** |
+| Plazo | 6 años |
+| Carencia | **24 meses** |
+| Cofinanciación obligatoria | No |
+| **Aval personal** | **No** |
+
+Rootflow no puede acudir a él (exige sociedad holandesa), pero sirve para algo más útil: es la **prueba documentada de que un fondo agrifood profesional presta 100 k€ a una empresa en fase temprana, sin aval personal y al 3 %**. Cuando un inversor español te plantee un aval personal o un tipo desproporcionado, esta es la referencia de mercado que puedes poner encima de la mesa — y deja claro que tus líneas rojas no son un capricho, son el estándar del sector en Europa.
+
+Ojo con leerlo al revés: su 3 % es barato porque es dinero semipúblico de ecosistema. Un inversor privado español va a pedir bastante más, y con razón. Úsalo para defender la **estructura** (sin aval, con carencia, subordinada), no para discutir el **precio**.
