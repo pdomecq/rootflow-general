@@ -123,3 +123,26 @@ Añade el resultado de la sesión con Primaflor (17/09) y el estado de Garret y 
 Rootflow no puede acudir a él (exige sociedad holandesa), pero sirve para algo más útil: es la **prueba documentada de que un fondo agrifood profesional presta 100 k€ a una empresa en fase temprana, sin aval personal y al 3 %**. Cuando un inversor español te plantee un aval personal o un tipo desproporcionado, esta es la referencia de mercado que puedes poner encima de la mesa — y deja claro que tus líneas rojas no son un capricho, son el estándar del sector en Europa.
 
 Ojo con leerlo al revés: su 3 % es barato porque es dinero semipúblico de ecosistema. Un inversor privado español va a pedir bastante más, y con razón. Úsalo para defender la **estructura** (sin aval, con carencia, subordinada), no para discutir el **precio**.
+
+---
+
+## 9. Piezas que no son la ronda, pero la hacen posible
+
+El mapeo de deuda alternativa deja una conclusión estructural que conviene interiorizar: **el mercado privado español de deuda a pymes no hace préstamo participativo de 100 k€.** SEPIDES exige mínimo 500 k€ para participativo; Oquendo, Talde y Tresmares operan en millones. La deuda participativa a este tamaño es, en la práctica, producto público — es decir, ENISA. Eso refuerza la tesis de la ronda: **el tramo de 100 k€ privados tiene que venir de un inversor (industrial, family office o angel), no de un fondo de deuda.**
+
+Lo que sí aporta ese mercado son las piezas de alrededor, que son ejecutables ya y sin tocar el cap table:
+
+| Pieza | Para qué | Candidatos verificados |
+|---|---|---|
+| **Aval SGR** | Acceder a financiación bancaria **sin garantías personales adicionales** — resuelve la póliza de 50 k€ y el CAPEX bancario respetando la línea roja | **Avalmadrid SGR** (elevó a 30 M€ su línea con Bankinter en abril de 2026), **Iberaval** (CESGAR confirma que opera en la Comunidad de Madrid) |
+| **Factoring / circulante** | Financiar el 60 % de facturas ya planificado, sin consumir la ronda | Workcapital, Novicap, **Finanzarel** (declara expresamente "sin avales ni garantías personales"), Circulantis, Inversa |
+| **Crowdlending de impacto** | Tramo de deuda complementario | **Ecrowd Invest** (PSFP CNMV nº17, presta hasta 300 k€ y declara alimentación y agricultura entre sus sectores) |
+| **Banca agro** | CAPEX duro | **Cajamar** (15,2 % de cuota nacional en financiación al sector primario; convocatorias de su aceleradora ya cerradas en 2026) |
+| **Tax lease de I+D** | Dinero **no dilutivo** contra el roadmap IoT y el ERP propio | Kaudal — ya estaba en tu lista, pero como instrumento de deuda, no como inversor |
+
+**La jugada del aval SGR merece atención propia.** Tu línea roja es "sin avales personales", y un banco normalmente responde pidiendo justamente eso. El aval de una SGR es la respuesta estándar del mercado a ese problema: la sociedad de garantía avala en lugar de los socios. Si consigues la póliza avalada por Avalmadrid, quitas presión al tramo privado y puedes negociar la ronda con menos urgencia — que es la mejor posición negociadora que existe.
+
+### Dos avisos concretos
+
+- **Triodos Bank:** su sector declarado es agricultura **ecológica certificada**, y la hidroponía **no es certificable como ecológica en la UE**. Si les hablas de "ecológico" te van a corregir. Háblales de impacto hídrico, KM 0 y sustitución de importación.
+- **Coop57:** exige ser entidad de economía social. Una SL mercantil ordinaria normalmente no es elegible.
