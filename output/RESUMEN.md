@@ -4,24 +4,31 @@
 > Ronda: 200.000 € = 100.000 € privado + 100.000 € ENISA. **Term sheet objetivo: 31/10/2026.**
 > Confidencial — uso interno.
 
+> ⚠️ **ACTUALIZADO EL 21/09/2026 — LA ESTRUCTURA DE LA RONDA HA CAMBIADO.**
+> El préstamo participativo privado queda descartado: rompe el requisito de fondos propios de ENISA.
+> Los 100 k€ entran ahora **como capital**. Ver `outreach/ESTRUCTURA_DE_LA_RONDA.md` y
+> `outreach/RETORNO_DEL_INVERSOR_EQUITY.md` — **las cifras de TIR, MOIC y payback del V14 ya no son válidas.**
+
+
 ---
 
 ## 1. Qué hay aquí
 
-**270 entidades únicas verificadas**, cada una con al menos una URL de fuente que respalda su existencia y su tesis.
+**392 entidades únicas verificadas**, cada una con al menos una URL de fuente que respalda su existencia y su tesis.
 
 | | |
 |---|---|
-| **Tier A** (prioridad máxima) | 11 |
-| **Tier B** (segunda oleada) | 88 |
-| **Tier C** (baja prioridad) | 171 |
-| Nuevas, no estaban en el pipeline | 256 |
-| Ya en pipeline o identificadas | 14 |
-| Con sede en Madrid | 109 |
-| Marcadas como competidor | 6 |
-| Confianza baja (verificar a mano) | 27 |
+| **Tier A** (prioridad máxima) | 21 |
+| **Tier B** (segunda oleada) | 136 |
+| **Tier C** (baja prioridad) | 235 |
+| **Pueden aportar CAPITAL** (no solo deuda) | 341 |
+| Nuevas, no estaban en el pipeline | 377 |
+| Ya en pipeline o identificadas | 15 |
+| Con sede en Madrid | 131 |
+| Marcadas como competidor | 11 |
+| Confianza baja (verificar a mano) | 29 |
 
-Por segmento: cadena de valor 60 · family offices 43 · crowdfunding 27 · redes de angels 24 · angels individuales 17 · deuda alternativa 16 · VC 16 · coinversores públicos 14 · banca 11 · industriales agro 11 · CVC 9 · aceleradoras 9 · impacto 9 · venture debt 4.
+Por segmento: industrial agro 96 · cadena valor 72 · family office 43 · crowdfunding 27 · aceleradora 26 · red angels 24 · angel 17 · cvc 16 · deuda alternativa 16 · vc 16 · publico coinversor 15 · banca 11 · impacto 9 · venture debt 4.
 
 ---
 
@@ -55,33 +62,32 @@ Eso confirma tu tesis por eliminación: **los 100 k€ privados tienen que salir
 | 2 | **Carlos Ortiz de Lucas** | angel | Madrid | 86 | Operador de restauracion en Madrid: su red de compras y de chefs es valor comercial inmediato para Rootflow y su... | Buscar intro calida antes de escribir |
 | 3 | **La Huerta de Aranjuez** | cadena valor | Aranjuez Madrid | 86 | Microblend co-desarrollado ya en su lineal: escalar a marca blanca conjunta y entrada como cliente-inversor con... | Buscar intro calida antes de escribir |
 | 4 | **Alberto Jimenez San Mateo** | angel | Madrid | 84 | Ha construido una marca de alimentacion desde cero en Madrid y conoce el canal retail y la cadena de suministro de... | Buscar intro calida antes de escribir |
-| 5 | **Tokavi Activos** | family office | Lorca (Murcia) | 84 | FO agro que entiende ciclos de cultivo y margenes hortofruticolas: ticket de 25-400 k€ encaja exacto con los 100 k€... | Buscar intro calida antes de escribir |
-| 6 | **Andres Casal Goicoechea** | angel | Andalucia | 79 | Busca negocios de repeticion con margenes claros: Rootflow vende cosecha viva bajo pedido a clientes HORECA... | Buscar intro calida antes de escribir |
-| 7 | **Red de Inversores Privados y Family Offices de IESE** | red angels | Barcelona | 78 | Perfil de family office que valora activo real, deuda participativa con downside protegido y TIR base del 33% con... | Email a businessangels@iese.edu |
-| 8 | **Antonio de Miguel S.A.** | cadena valor | Madrid | 76 | Microbrotes y flores comestibles KM0 Madrid como categoria viva y diferencial en un catalogo hoy dominado por... | Reunion en Fruit Attraction (6-8 oct) |
-| 9 | **Ecrowd Invest PFP S.L.** | crowdfunding | Barcelona | 76 | Financiar el CAPEX duro de la nave con deuda de impacto sin diluir: eficiencia hidrica y energetica de la hidroponia... | Formulario web + seguimiento en 5 dias |
-| 10 | **Guillen Merca S.L.** | cadena valor | Madrid | 76 | Ya practican integracion vertical hacia atras con campos propios y marca premium: Rootflow les anade una categoria... | Reunion en Fruit Attraction (6-8 oct) |
-| 11 | **Avalmadrid SGR** | publico coinversor | Madrid | 74 | Su web dice literalmente que el aval evita aportar garantías personales adicionales: es la pieza que permite montar... | Formulario web + seguimiento en 5 dias |
-| 12 | **Frutas Candil S.L.** | cadena valor | Madrid | 74 | Suministro exclusivo de microbrotes KM0 desde Madrid para su cartera horeca en dos plazas, con opcion de marca... | Email con resumen + deck |
-| 13 | **Marc Ferran** | angel | Barcelona | 74 | Invierte en agrotech desde fases semilla eficientes en capital y ayuda con cap table y paneles de metricas: perfil... | Buscar intro calida antes de escribir |
-| 14 | **Corporacion Hijos de Rivera (Cosecha de Galicia y MOVE)** | family office | A Coruña | 73 | Es el unico inversor espaniol que ya ha puesto dinero en hidroponia de interior (Ekonoke): Rootflow es el mismo... | Formulario web + seguimiento en 5 dias |
-| 15 | **Iberaval SGR** | publico coinversor | Valladolid | 73 | Opera en la Comunidad de Madrid y es la SGR con más músculo del país: segunda vía de aval en paralelo a Avalmadrid... | Formulario web + seguimiento en 5 dias |
-| 16 | **Eatable Adventures** | aceleradora | Madrid | 72 | Unico inversor espanol con precedente verificado en agricultura vertical (Neboda): CEA con eficiencia hidrica... | Formulario web + seguimiento en 5 dias |
-| 17 | **Faraday Venture Partners - Club Faraday** | red angels | Madrid | 72 | Su modelo club permite sindicar los 100 k€ entre varios family offices con tickets pequenios, sin depender de un... | Formulario web + seguimiento en 5 dias |
-| 18 | **Gemusering Gastronomia S.L.** | cadena valor | Madrid | 72 | Su linea Gourmet para alta restauracion es exactamente el canal de Rootflow: suministro exclusivo KM0 Madrid y... | Reunion en Fruit Attraction (6-8 oct) |
-| 19 | **Marta Campillo** | angel | Barcelona | 72 | Doble puerta: ticket propio como angel y acceso a BStartup de Banco Sabadell, ya en la lista de identificados de... | Buscar intro calida antes de escribir |
-| 20 | **Angels Capital** | family office | Valencia | 71 | Producto fresco KM 0 para canal profesional con unit economics probados y ERP propio: el tipo de negocio... | Formulario web + seguimiento en 5 dias |
-| 21 | **Francois Derbaix** | angel | Madrid | 71 | Bewater Funds invierte en companias rentables sin salida forzada, filosofia compatible con dividendos bloqueados y... | Buscar intro calida antes de escribir |
-| 22 | **GoCrowd PSFP** | crowdfunding | Espana | 71 | Ya financian proyectos de restauración de importe pequeño, por lo que un préstamo a un proveedor KM 0 de HORECA... | Formulario web + seguimiento en 5 dias |
-| 23 | **BAN madri+d (Business Angels Network madri+d)** | red angels | Madrid | 70 | Empresa madrilena, tangible y visitable en Las Rozas, con ERP propio V72 en produccion: encaja en el mandato... | Formulario web + seguimiento en 5 dias |
-| 24 | **Carles Leg** | angel | Barcelona | 70 | Perfil de alimentacion sostenible con enfoque operativo: la hidroponia de precision con cosecha bajo pedido y zero... | Buscar intro calida antes de escribir |
-| 25 | **Esade Alumni Business Angels (Esade BAN)** | red angels | Barcelona | 70 | Tickets desde 10.000 euros y 20 foros al ano: la red donde mas facil es sindicar cuatro o cinco cuentas en... | Email a entrepreneurship@alumni.esade.edu |
-| 26 | **Felix Ruiz Hernandez** | angel | Madrid | 70 | Angel madrileno de primer nivel con historial en alimentacion y delivery: su entrada valida la ronda ante el resto... | Buscar intro calida antes de escribir |
-| 27 | **Fruteria Vazquez** | cadena valor | Madrid | 70 | Escaparate de prestigio en el barrio de Salamanca y prescriptor ante chefs: microbrotes KM0 vivos como novedad de... | Buscar intro calida antes de escribir |
-| 28 | **Mercamadrid S.A.** | cadena valor | Madrid | 70 | Acuerdo de consignacion ya en borrador: consolidarlo y usarlo como puerta de entrada a las 150 mayoristas de la nave... | Email a mercamadrid@mercamadrid.es |
-| 29 | **Pascual Innoventures (Calidad Pascual)** | cvc | Madrid | 70 | Proyecto agroalimentario madrileño, tangible y visitable en Las Rozas, con ERP propio e IoT en roadmap: encaja con... | Formulario web + seguimiento en 5 dias |
-| 30 | **Keiretsu Forum Spain** | red angels | Madrid | 69 | Foro de inversion en Madrid el 27 de octubre de 2026: ventana de tiempo perfecta para el objetivo de term sheet del... | Reunion en Fruit Attraction (6-8 oct) |
-Excluidas las entidades ya en pipeline y las de confianza baja. La lista completa, con fuentes, está en el Excel.
+| 5 | **Aromatic Factory S.L.U.** | industrial agro | Dolores de Pacheco Murcia | 84 | Aromaticas y microbrotes son el mismo cliente el mismo lineal y el mismo chef. Rootflow aporta la pata de... | Reunion en Fruit Attraction (6-8 oct) |
+| 6 | **Tokavi Activos** | family office | Lorca (Murcia) | 84 | FO agro que entiende ciclos de cultivo y margenes hortofruticolas: ticket de 25-400 k€ encaja exacto con los 100 k€... | Buscar intro calida antes de escribir |
+| 7 | **Jimbofresh International S.L.L.** | industrial agro | La Union Murcia | 81 | Control unipersonal y experiencia creando filiales. Rootflow es un ticket de calderilla para Jimbofresh que le abre... | Reunion en Fruit Attraction (6-8 oct) |
+| 8 | **Bonnysa Agroalimentaria S.A.** | industrial agro | San Juan de Alicante Alicante | 80 | Bonnysa ya tiene division de innovacion en IV y V gama. Rootflow le da la categoria de microbrotes llave en mano con... | Reunion en Fruit Attraction (6-8 oct) |
+| 9 | **Royalveg Fresh Produce S.L.** | industrial agro | Aguilas Murcia | 80 | El baby leaf es literalmente el escalon anterior al microbrote. Royalveg domina la hoja joven pero no tiene indoor... | Email a info@royalveg.com |
+| 10 | **Andres Casal Goicoechea** | angel | Andalucia | 79 | Busca negocios de repeticion con margenes claros: Rootflow vende cosecha viva bajo pedido a clientes HORECA... | Buscar intro calida antes de escribir |
+| 11 | **Germinats Tugas S.L.** | industrial agro | Sant Climent de Llobregat Barcelona | 79 | Tugas ya compro una compania para crecer y quiere pasar de la ensalada a los fogones. Rootflow le da capacidad y... | Buscar intro calida antes de escribir |
+| 12 | **Huercasa Grupo** | industrial agro | Sanchonuno Segovia | 79 | Huercasa invierte activamente y tiene centro de innovacion para categorias nuevas. Rootflow le da la categoria de... | Reunion en Fruit Attraction (6-8 oct) |
+| 13 | **Semillas Fito S.A.** | industrial agro | Barcelona | 79 | Fito pone una quinta parte de sus ventas en I+D. Rootflow es un proyecto de 50 a 100 k EUR que le abre la categoria... | Formulario web + seguimiento en 5 dias |
+| 14 | **Red de Inversores Privados y Family Offices de IESE** | red angels | Barcelona | 78 | Perfil de family office que valora activo real, deuda participativa con downside protegido y TIR base del 33% con... | Email a businessangels@iese.edu |
+| 15 | **Antonio de Miguel S.A.** | cadena valor | Madrid | 76 | Microbrotes y flores comestibles KM0 Madrid como categoria viva y diferencial en un catalogo hoy dominado por... | Reunion en Fruit Attraction (6-8 oct) |
+| 16 | **Ecrowd Invest PFP S.L.** | crowdfunding | Barcelona | 76 | Financiar el CAPEX duro de la nave con deuda de impacto sin diluir: eficiencia hidrica y energetica de la hidroponia... | Formulario web + seguimiento en 5 dias |
+| 17 | **Frutas Candil S.L.** | cadena valor | Madrid | 76 | Rootflow ya tiene acuerdo de consignacion en borrador en Mercamadrid. Para Candil es marca blanca de microbrotes KM... | Formulario web + seguimiento en 5 dias |
+| 18 | **Grupo La Cana** | industrial agro | Motril Granada | 76 | Grupo La Cana ya colabora con universidad e invierte en proyectos propios. Rootflow es entrada inmediata en... | Formulario web + seguimiento en 5 dias |
+| 19 | **Guillen Merca S.L.** | cadena valor | Madrid | 76 | Su cliente es el mismo que el de Rootflow. Entrada como proveedor exclusivo de microbrotes KM 0 mas participacion... | Formulario web + seguimiento en 5 dias |
+| 20 | **Fruselva Global S.A. MaserGrup** | industrial agro | La Selva del Camp Tarragona | 75 | Fruselva ya compra empresas. Rootflow es una entrada minoritaria barata en microbrotes premium con capacidad montada... | Formulario web + seguimiento en 5 dias |
+| 21 | **Avalmadrid SGR** | publico coinversor | Madrid | 74 | Su web dice literalmente que el aval evita aportar garantías personales adicionales: es la pieza que permite montar... | Formulario web + seguimiento en 5 dias |
+| 22 | **Marc Ferran** | angel | Barcelona | 74 | Invierte en agrotech desde fases semilla eficientes en capital y ayuda con cap table y paneles de metricas: perfil... | Buscar intro calida antes de escribir |
+| 23 | **Corporacion Hijos de Rivera (Cosecha de Galicia y MOVE)** | family office | A Coruña | 73 | Es el unico inversor espaniol que ya ha puesto dinero en hidroponia de interior (Ekonoke): Rootflow es el mismo... | Formulario web + seguimiento en 5 dias |
+| 24 | **Iberaval SGR** | publico coinversor | Valladolid | 73 | Opera en la Comunidad de Madrid y es la SGR con más músculo del país: segunda vía de aval en paralelo a Avalmadrid... | Formulario web + seguimiento en 5 dias |
+| 25 | **Champinter S.Coop. de C-LM** | industrial agro | Villamalea Albacete | 72 | Su cultivo en entorno controlado y su canal de setas gourmet encajan de forma natural con los microbrotes. Rootflow... | Formulario web + seguimiento en 5 dias |
+| 26 | **Eatable Adventures** | aceleradora | Madrid | 72 | Unico inversor espanol con precedente verificado en agricultura vertical (Neboda): CEA con eficiencia hidrica... | Formulario web + seguimiento en 5 dias |
+| 27 | **Faraday Venture Partners - Club Faraday** | red angels | Madrid | 72 | Su modelo club permite sindicar los 100 k€ entre varios family offices con tickets pequenios, sin depender de un... | Formulario web + seguimiento en 5 dias |
+| 28 | **Gemusering Gastronomia S.L.** | cadena valor | Madrid | 72 | Su linea Gourmet para alta restauracion es exactamente el canal de Rootflow: suministro exclusivo KM0 Madrid y... | Reunion en Fruit Attraction (6-8 oct) |
+| 29 | **Marta Campillo** | angel | Barcelona | 72 | Doble puerta: ticket propio como angel y acceso a BStartup de Banco Sabadell, ya en la lista de identificados de... | Buscar intro calida antes de escribir |
+| 30 | **Angels Capital** | family office | Valencia | 71 | Producto fresco KM 0 para canal profesional con unit economics probados y ERP propio: el tipo de negocio... | Formulario web + seguimiento en 5 dias |
 
 ---
 
