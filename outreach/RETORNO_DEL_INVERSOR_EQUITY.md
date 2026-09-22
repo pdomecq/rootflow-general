@@ -1,7 +1,15 @@
 # Retorno del inversor con entrada en capital — recálculo
 
-> 21/09/2026. Parte del **Modelo V14, escenario Base**. Sustituye al cálculo sobre préstamo participativo.
-> **Esto es un análisis de estructuración, no asesoramiento financiero ni legal.** Reconcíliese con el modelo antes de usarlo.
+> 21/09/2026. **ACTUALIZADO: las cifras de este documento eran estimaciones; ya están verificadas
+> recalculando el Modelo V15.** Los números definitivos están en `OPCIONES_ESTRUCTURA_ENISA.md` y en
+> `modelo/Rootflow_Modelo_Financiero_V15_equity.xlsx`.
+>
+> **Resultado final (escenario Base, 10 % del capital, salida en el año 4, suelo 1,5×):**
+> **TIR 35,1 % · MOIC 3,33× · valor del equity a la salida 3.330.103 € · cobro del inversor 333.010 €.**
+> Conservador: 10,7 % · 1,50×. Optimista: 53,2 % · 5,51×. DSCR mínimo 6,78×.
+>
+> Este documento conserva el razonamiento —por qué el plazo importa más que el porcentaje— que sigue siendo válido.
+> **Esto es un análisis de estructuración, no asesoramiento financiero ni legal.**
 
 ---
 
@@ -25,9 +33,13 @@ Valor = EBITDA × múltiplo + caja. Cifras del V14 Base:
 | Año 6 | 430.665 € | 2.914.308 € | 3.344.973 € | 3.775.638 € | 4.206.303 € |
 | Año 7 | 400.955 € | 3.367.449 € | 3.768.404 € | 4.169.359 € | 4.570.314 € |
 
-> ⚠️ **Incoherencia a resolver antes de enseñar nada.** El propio V14 valora el 30 % de un socio en 828.362 €, lo que implica un valor total de la compañía de **2.761.207 €** — por debajo incluso de un múltiplo de 5x sobre EBITDA más caja. O el modelo usa un múltiplo más bajo, o no suma la caja. **Hay que reconciliar las dos cifras**: si un inversor las cruza y no cuadran, pierdes credibilidad en todo lo demás.
+> ✅ **Las dos incoherencias, resueltas y corregidas en el V15.**
 >
-> Segunda incoherencia menor: el V14 reparte "30 % cada socio", lo que deja un 10 % fuera; el contexto de compañía habla de un kicker del 2,5 %. Cuadra también eso.
+> **1. El valor de salida no sumaba la caja.** Confirmado en la celda: el V14 calculaba `EBITDA año 5 × 6 = 2.761.205 €`, que es un *enterprise value*, y lo trataba como valor del equity. El V15 lo corrige a **EV + caja − deuda viva**, que en el caso base da **3.330.103 €** en el mes de salida.
+>
+> **2. El reparto "30 % cada socio" dejaba un 10 % suelto** mientras el kicker era del 2,5 %. Al fijar la participación del inversor en el 10 %, el 30 % por fundador **pasa a ser exactamente correcto** y la incoherencia desaparece sola.
+>
+> **3. Corrección a lo que dije antes:** el kicker sí estaba incluido en el retorno del inversor — se pagaba en el mes 84 (celda CH121). Lo que no incluía era la caja en el valor de salida.
 
 ---
 

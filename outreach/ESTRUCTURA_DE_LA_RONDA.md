@@ -1,6 +1,9 @@
 # Estructura de la ronda — sustituir el préstamo participativo
 
 > Revisión del 21/09/2026, tras la objeción de la asesora de ENISA.
+> **DECIDIDO: el inversor entra con el 10 % del capital por 100.000 €, con derecho de salida desde el año 4
+> y suelo de protección de 1,5×. Modelo V15 ya actualizado y recalculado.**
+> Las opciones que cumplen el requisito de fondos propios están en `OPCIONES_ESTRUCTURA_ENISA.md`.
 > Confidencial, uso interno. **Esto es análisis de estructuración, no asesoramiento legal ni fiscal.**
 > Valídalo con la asesora de ENISA y con un mercantilista antes de firmar nada.
 
