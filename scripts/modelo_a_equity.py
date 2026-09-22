@@ -30,7 +30,7 @@ RUTA = "modelo/Rootflow_Modelo_Financiero_V15_equity.xlsx"
 MENSUALES = ["Modelo_Mensual","Esc_Conservador","Esc_Base","Esc_Optimista"]
 COL0, COLN = 3, 86          # C..CH = meses 1..84
 
-def main(importe=100000, pre_money=900000, importe_enisa=100000, mes_salida=48, mes_enisa=3, suelo=1.5, destino=RUTA):
+def main(importe=100000, pre_money=900000, importe_enisa=100000, mes_salida=48, mes_enisa=3, suelo=1.5, carencia_enisa=60, destino=RUTA):
     pct_equity = importe / (pre_money + importe)
     wb = openpyxl.load_workbook(ORIGEN, data_only=False)
 
@@ -39,6 +39,9 @@ def main(importe=100000, pre_money=900000, importe_enisa=100000, mes_salida=48, 
     h["A94"] = "Estructura (1=Préstamo·2=Participativo·3=Ctas.particip.·4=Rev-share·5=CAPITAL)"
     h["D92"] = importe
     h["D104"] = importe_enisa
+    h["D109"] = carencia_enisa          # carencia de ENISA: reparte el principal
+    h["D81"]  = importe + 30           # capital social tras la ampliacion (hipotesis conservadora para la reserva legal)
+    h["A81"]  = "Capital social + prima tras la ampliación (base de la reserva legal)"
     h["D94"] = 5
     h["A119"] = "Equity cedido al inversor (estructura 5: su participación real)"
     h["D119"] = pct_equity
@@ -146,4 +149,5 @@ if __name__ == "__main__":
          mes_salida=int(a[3]) if len(a)>3 else 48,
          mes_enisa=int(a[4]) if len(a)>4 else 3,
          suelo=float(a[5]) if len(a)>5 else 1.5,
-         destino=a[6] if len(a)>6 else RUTA)
+         carencia_enisa=int(a[6]) if len(a)>6 else 60,
+         destino=a[7] if len(a)>7 else RUTA)

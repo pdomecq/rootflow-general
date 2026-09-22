@@ -1,5 +1,11 @@
 # Opciones de estructura que cumplen con ENISA
 
+> ⚠️ **DOCUMENTO SUPERADO — 22/09/2026.** Partía de que ENISA desembolsaba meses después de la
+> ampliación, lo que abría una pinza que en realidad no existe: **ENISA desembolsa a la semana de
+> tener el capital**. Con eso, la estructura de 100.000 € al 10 % cumple sin necesidad de levantar más.
+> **La estructura cerrada está en `ESTRUCTURA_FINAL.md`.** Esto se conserva solo como registro del
+> análisis de sensibilidad sobre el importe de la ronda.
+
 > Todas verificadas **recalculando el modelo V15**, no estimadas. 21/09/2026.
 > Requisito que manda sobre todo lo demás: **fondos propios ≥ importe solicitado a ENISA.**
 > Análisis de estructuración, no asesoramiento legal ni fiscal.

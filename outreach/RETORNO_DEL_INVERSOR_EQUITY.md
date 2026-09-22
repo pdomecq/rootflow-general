@@ -6,7 +6,7 @@
 >
 > **Resultado final (escenario Base, 10 % del capital, salida en el año 4, suelo 1,5×):**
 > **TIR 35,1 % · MOIC 3,33× · valor del equity a la salida 3.330.103 € · cobro del inversor 333.010 €.**
-> Conservador: 10,7 % · 1,50×. Optimista: 53,2 % · 5,51×. DSCR mínimo 6,78×.
+> Conservador: 10,7 % · 1,50×. Optimista: 53,2 % · 5,51×. DSCR mínimo **11,43×** (2,42× en conservador).
 >
 > Este documento conserva el razonamiento —por qué el plazo importa más que el porcentaje— que sigue siendo válido.
 > **Esto es un análisis de estructuración, no asesoramiento financiero ni legal.**

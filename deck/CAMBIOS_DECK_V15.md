@@ -12,14 +12,14 @@
 |---|---|---|---|
 | TIR del inversor | 10,7 % | **35,1 %** | 53,2 % |
 | MOIC | 1,50× | **3,33×** | 5,51× |
-| DSCR mínimo (años 2-7) | 1,00× | **6,78×** | 10,77× |
+| DSCR mínimo (años 2-7) | **2,42×** | **11,43×** | 16,46× |
 | Ingresos en régimen | 1,03 M€ | **1,30 M€** | 1,52 M€ |
 | EBITDA en régimen | 115 k€ · 11 % | **460 k€ · 35 %** | 757 k€ · 50 % |
-| Valor del equity a la salida | 0,78 M€ | **3,33 M€** | 5,51 M€ |
+| Valor del equity a la salida | 0,79 M€ | **3,33 M€** | 5,51 M€ |
 
 **Dos cambios de métrica que hay que asumir:**
 - **El payback desaparece.** Con capital no hay cupón: hay un único cobro en la salida. Sustitúyelo por **"horizonte de salida: año 4"**.
-- **El DSCR mejora mucho** (de 3,7× a 6,8× en base) porque desaparece el servicio de deuda del tramo del inversor. Es un argumento nuevo y bueno: el plan aguanta mejor.
+- **El DSCR mejora muchísimo** (de 3,7× a 11,4× en base, y de 0,42× a 2,42× en conservador) porque desaparece el servicio de deuda del tramo del inversor. Es un argumento nuevo y bueno: el plan aguanta mejor.
 
 ---
 
@@ -43,7 +43,7 @@
 > **C O N D I C I O N E S · T R A M O   I N V E R S O R**
 > Entrada en capital: **10 % de la sociedad por 100.000 €** · derecho de salida pactado a partir del año 4 · **suelo de protección de 1,5×** sobre lo invertido · sin aval personal · los fundadores conservan el 90 % y el control.
 >
-> Colchón de seguridad: caja mínima de 30.000 €, **DSCR de 6,8×** en los años 2-7 y circulante financiado con póliza de crédito, no con la ronda.
+> Colchón de seguridad: caja mínima de 30.000 €, **DSCR de 11,4×** en los años 2-7 y circulante financiado con póliza de crédito, no con la ronda.
 
 **El capital stack no cambia:** 100.000 € inversor privado + 100.000 € ENISA = 200.000 €, cobertura 1,24× sobre los 161.278 € de necesidad.
 
@@ -61,7 +61,7 @@ Sustituye los tres bloques de métricas. **El payback sale; entra el valor del e
 |---|---|---|---|
 | TIR DEL INVERSOR | **10,7 %** | **35,1 %** | **53,2 %** |
 | MOIC | **1,50×** | **3,33×** | **5,51×** |
-| ~~PAYBACK~~ → VALOR DEL EQUITY | **0,78 M€** | **3,33 M€** | **5,51 M€** |
+| ~~PAYBACK~~ → VALOR DEL EQUITY | **0,79 M€** | **3,33 M€** | **5,51 M€** |
 | INGRESOS · RÉGIMEN | 1,03 M€ *(igual)* | 1,30 M€ *(igual)* | 1,52 M€ *(igual)* |
 | EBITDA · RÉGIMEN | 115 k€ · 11 % *(igual)* | 460 k€ · 35 % *(igual)* | 757 k€ · 50 % *(igual)* |
 
