@@ -3,3 +3,4 @@ __pycache__/
 .DS_Store
 deck/build/slide-*.jpg
 deck/build/node_modules/
+deck/build/datos/madrid_barrios.geojson
