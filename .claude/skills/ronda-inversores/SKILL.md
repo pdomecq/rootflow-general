@@ -23,7 +23,10 @@ Antes de nada lee entero `config.md`, `datos.md` y `plantillas.md` de esta carpe
    - Lo que Pedro escribe en «Ajustes del agente» (ticket mínimo, novedades, huecos y enlaces) también cuenta como verificado.
    - Si un mensaje necesita un dato que no está en ninguno de los dos sitios, no lo inventes: deja un hueco entre corchetes, `[DATO: ...]`.
    - La columna «Ángulo» de Notion es contexto de por qué encaja el inversor. Sus cifras son antiguas (V14) y **nunca se copian**.
-3. **Huecos sin rellenar bloquean el envío.** Un mensaje con cualquier `[` en el cuerpo, el asunto o los destinatarios no se envía aunque esté «Aprobado». Lo pasas a «Bloqueado» y explicas por qué en Notas.
+3. **Huecos sin rellenar bloquean el envío.**
+   - Un hueco es un texto entre corchetes que no forma parte de un enlace, por ejemplo `[HUECO 1]` o `[ENLACE DECK]`.
+   - Notion convierte los emails y las webs en enlaces `[texto](url)`. Eso no es un hueco: al enviar se usa el texto visible.
+   - Un mensaje con un hueco en el cuerpo, el asunto o los destinatarios no se envía aunque esté «Aprobado». Lo pasas a «Bloqueado» y explicas por qué en Notas.
 4. **Gating de información.**
    - El deck se comparte solo tras una respuesta positiva.
    - El modelo financiero, los clientes por nombre y las tarifas solo se comparten con NDA firmado.
@@ -122,7 +125,9 @@ Lee el mensaje entero y aplica la primera regla que encaje. Las demás señales 
 - Resume la respuesta en una línea en el Historial de la ficha (fecha · quién · qué dice). No copies el correo entero.
 
 ### 4. Enviar lo aprobado (solo con el envío activo)
-Para cada fila con Mensaje «Aprobado»:
+Los mensajes de Tipo «Formulario» o «Intro» no se envían nunca desde aquí: los pega Pedro. Si están en «Aprobado», recuérdaselo en el parte.
+
+Para cada fila con Mensaje «Aprobado» y Tipo de correo:
 
 1. Lee la ficha y extrae el bloque «Próximo mensaje» (formato abajo).
 2. Haz los controles. Si alguno falla: Mensaje «Bloqueado», motivo en Notas, y sigues con la siguiente fila.
