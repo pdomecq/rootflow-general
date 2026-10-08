@@ -69,7 +69,7 @@ Todo lo demás (leer, clasificar, actualizar Notion y preparar mensajes) se hace
 
 ### 0. Contexto
 - Fecha de hoy en hora de Madrid.
-- Lee la página hub de Notion (apartado «Ajustes del agente»): enlaces al deck, al NDA y a la página de reservas, novedades que se pueden contar y huecos de agenda.
+- Lee la página hub de Notion (apartado «Ajustes del agente»): enlaces al deck, al NDA, al modelo financiero y a la página de reservas, novedades que se pueden contar y huecos de agenda.
 - Decide el modo de envío.
 
 ### 1. Cargar el pipeline
@@ -129,7 +129,7 @@ Lee el mensaje entero y aplica la primera regla que encaje. Las demás señales 
 | Pide datos concretos, deck, modelo o documentación | Más info solicitada | R-INFO con lo que está en `datos.md`. Si pide el modelo, R-NDA |
 | Propone o acepta reunión o llamada | Reunión de pitch | R-REUNION: con el enlace de reservas de Ajustes, o con huecos si no hay enlace. Si propone día y hora, se acepta y Pedro crea la invitación |
 | Pregunta por valoración, condiciones, cap table o su ticket, quiere visitar o pide el NDA | Muy interesado | R-NDA o R-VISITA. Apunta el importe en «Ticket indicado» |
-| Devuelve el NDA firmado o lo confirma | NDA firmado | Aviso a Pedro: enviar el modelo V17. Mensaje R-POSTNDA para revisar |
+| Devuelve el NDA firmado o lo confirma | NDA firmado | Si falta nuestra firma, aviso a Pedro para firmarlo. Con las dos firmas, R-POSTNDA con el enlace al modelo de Ajustes, para revisar |
 | Visita fijada o hecha | Visita | Aviso a Pedro. Seguimiento post-visita a las 48 h |
 | Habla de term sheet, nota convertible o borrador de condiciones | Term sheet | Solo resumen y aviso a Pedro. No redactas condiciones |
 

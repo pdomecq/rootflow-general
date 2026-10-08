@@ -209,8 +209,8 @@ Te dejo también el dossier: [ENLACE DECK]. ¿Lo vemos en una llamada de 20 minu
 **R-NDA**
 Gracias por el interés. Para compartir el modelo financiero y el detalle de clientes trabajamos con un NDA sencillo: [ENLACE NDA]. En cuanto esté firmado por las dos partes te enviamos el modelo y lo revisamos juntos en 45 minutos. Y si te apetece, ven a ver el cultivo: [HUECO 1] o [HUECO 2].
 
-**R-POSTNDA** (siempre lo envía Pedro, lleva adjunto)
-Gracias, recibido. Te adjunto el modelo financiero V17 [ADJUNTAR MODELO V17]. ¿Te viene bien revisarlo juntos [HUECO 1] o [HUECO 2]?
+**R-POSTNDA** (solo con el NDA firmado por las dos partes, siempre para revisar)
+Gracias, recibido. Te paso el modelo financiero completo: [ENLACE MODELO]. ¿Te viene bien revisarlo juntos [HUECO 1] o [HUECO 2]?
 
 **R-VISITA**
 Encantados de enseñártelo. En 45 minutos ves la sala de cultivo, cortamos una bandeja delante de ti, catas varias variedades y te llevas muestras. ¿Te viene bien [HUECO 1] o [HUECO 2]? Te mando la dirección al confirmar.

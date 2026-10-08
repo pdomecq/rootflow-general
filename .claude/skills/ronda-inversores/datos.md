@@ -109,5 +109,5 @@
 | Correo de presentación | Primer contacto | Texto, sin adjuntos |
 | Deck V17 (ES o EN) | Tras una respuesta positiva | Enlace de los Ajustes de Notion. Si no hay enlace, `[ENLACE DECK]` |
 | NDA | Cuando piden números o muestran interés serio | Enlace de los Ajustes. Si no hay enlace, `[ADJUNTAR NDA]` |
-| Modelo financiero V17 | Solo con NDA firmado | Lo envía Pedro. El agente solo avisa |
+| Modelo financiero V17 | Solo con NDA firmado por las dos partes | Enlace de Ajustes en R-POSTNDA, siempre para revisar. Si no hay enlace, `[ENLACE MODELO]` |
 | Visita al cultivo | Tras la reunión o con interés serio | Fechas en Ajustes o `[HUECO 1]` y `[HUECO 2]` |

@@ -13,7 +13,7 @@
 Los ajustes que Pedro cambia sin tocar el repositorio están en el apartado **Ajustes del agente** de la página hub:
 
 - interruptor de envío;
-- enlaces al deck y al NDA;
+- enlaces al deck, al NDA y al modelo financiero (este solo tras NDA firmado);
 - enlace de reservas (agenda de citas de Google Calendar, con Google Meet);
 - novedades que se pueden contar;
 - huecos de agenda.
