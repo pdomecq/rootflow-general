@@ -26,7 +26,8 @@ Los ajustes que Pedro cambia sin tocar el repositorio están en el apartado **Aj
 - **Límites por pasada:**
   - Máximo 15 envíos en total.
   - Máximo 5 pitches nuevos por email preparados para revisar.
-  - Máximo 5 textos de formulario.
+  - Máximo 5 textos de formulario preparados.
+  - Máximo 5 formularios web enviados (cuentan dentro de los 15 envíos).
   - Máximo 3 textos de intro.
 - **Tier C:** no se preparan pitches para Tier C hasta que no queden filas A y B en «Por contactar» con canal Email o Formulario.
 

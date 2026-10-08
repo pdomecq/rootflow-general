@@ -156,6 +156,8 @@ Best regards,
 ---
 
 ## FORM · texto para formularios web (menos de 1.000 caracteres)
+Lo envía el agente: rellena el formulario o, si la web no tiene uno utilizable, lo manda al email genérico que publique (ver «Formularios web» en `SKILL.md`).
+
 Rootflow Hydroponics (Madrid, 2026) cultiva microbrotes vivos y flores comestibles con hidroponía LED de precisión, con cosecha bajo pedido y entrega en 24-48 h a distribución y restauración. Ya facturamos, tenemos dos distribuidores con pedido semanal y un ERP propio. Levantamos 100.000 € por el 10 % del capital (900.000 € pre-money), que desbloquean otros 100.000 € de ENISA, para pasar a una nave de 350 m² con 30 veces más capacidad. Plan base: 1,72 M€ de ingresos y 714 k€ de EBITDA en el año 5. Salida pactada para el inversor desde el año 4 y suelo de 1,5×. [UNA FRASE DE ENCAJE CON LA ENTIDAD]. Contacto: Pedro Domecq, p.domecq@rootflow.es, +34 638 161 990.
 
 ## INTRO · párrafo para quien nos presente

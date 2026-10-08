@@ -39,7 +39,10 @@ Antes de nada lee entero `config.md`, `datos.md` y `plantillas.md` de esta carpe
    - Solo emails corporativos o genéricos publicados, o los que el propio inversor nos ha escrito.
    - Nunca adivines un email (nombre.apellido@).
    - No uses buzones de reservas, pedidos o atención al cliente para un pitch de inversión.
-7. **No contactas por otros canales.** No rellenas formularios web, no escribes por LinkedIn y no llamas. Preparas el texto y se lo dejas a Pedro.
+7. **Canales: email y formularios web, nada más.**
+   - Envías por email y por formularios web (apartado «Formularios web»), siempre con el texto aprobado.
+   - No escribes por LinkedIn y no llamas.
+   - Nunca intentas saltarte un CAPTCHA. Si un formulario lo tiene, se lo dejas a Pedro.
 8. **Nunca retrocedes un Estado salvo a «Rechazado»**, y solo cuando el rechazo es explícito. Si alguien pide no volver a ser contactado: «Rechazado», nota «No contactar» y no se le escribe nunca más.
 9. **Term sheet y negociación son de Pedro.** A partir de «Muy interesado» solo resumes, propones borradores y avisas. No negocias condiciones ni valoración por escrito.
 10. **Lo que editan los socios en Notion manda.** Si Pedro, Nico o Domingo han cambiado un Estado, una nota o el texto de un mensaje, lo respetas y sigues desde ahí.
@@ -96,7 +99,7 @@ Construye un mapa de dominios con el Email de cada fila y el dominio de su Web.
      - Si la fila estaba en «Por contactar», pásala a «Contactado».
      - Pon «1er contacto» si estaba vacío.
      - Actualiza «Último contacto» y guarda el hilo.
-4. **Confirmaciones de formularios web.** Un acuse automático de una entidad del mapa significa que Pedro envió el formulario. Pasa la fila a «Contactado» si estaba en «Por contactar».
+4. **Confirmaciones de formularios web.** Un acuse automático de una entidad del mapa significa que el formulario llegó, lo enviara el agente o Pedro. Pasa la fila a «Contactado» si estaba en «Por contactar» y quita el «Bloqueado» de envío dudoso si lo había.
 5. **Reuniones reservadas con el enlace de reservas.**
    - `search_threads` con `newer_than:3d from:calendar-notification@google.com`. Si no sale nada, prueba `newer_than:3d (reservado OR reserva OR booked OR cita)`.
    - En el aviso de Google Calendar vienen el nombre y el email de quien reserva, el día y la hora. Cruza ese email (no el remitente, que es Google) con el mapa de dominios.
@@ -136,7 +139,8 @@ Lee el mensaje entero y aplica la primera regla que encaje. Las demás señales 
 - Resume la respuesta en una línea en el Historial de la ficha (fecha · quién · qué dice). No copies el correo entero.
 
 ### 4. Enviar lo aprobado (solo con el envío activo)
-Los mensajes de Tipo «Formulario» o «Intro» no se envían nunca desde aquí: los pega Pedro. Si están en «Aprobado», recuérdaselo en el parte.
+- Los mensajes de Tipo «Intro» no se envían nunca: los reenvía Pedro. Si están en «Aprobado», recuérdaselo en el parte.
+- Los de Tipo «Formulario» se envían con el navegador: sigue el apartado «Formularios web», más abajo.
 
 Para cada fila con Mensaje «Aprobado» y Tipo de correo:
 
@@ -159,6 +163,47 @@ Para cada fila con Mensaje «Aprobado» y Tipo de correo:
    - «Fecha próxima acción» según la cadencia.
 5. Mueve el texto enviado al Historial como «Enviado: <asunto>», con la fecha, y vacía el bloque «Próximo mensaje».
 
+### Formularios web (Tipo «Formulario» con Mensaje «Aprobado»)
+Mismos controles que un correo: sin huecos, cifras de `datos.md`, Estado distinto de «Rechazado» y dentro de los límites de `config.md`.
+
+1. **Navegador.** Una vez por sesión: `bash .claude/skills/ronda-inversores/preparar_navegador.sh`.
+2. **Mira la web.** `NODE_PATH=$(npm root -g) node .claude/skills/ronda-inversores/formularios_web.js inspeccionar <url>`, con la URL de «Para:» o la Web de la fila. Si no hay formulario, prueba sus `enlaces_contacto` (tres como mucho).
+3. **Elige el canal**, en este orden:
+   - **Formulario sin CAPTCHA visible** («reCAPTCHA invisible (v3)» no cuenta como visible): se rellena y se envía.
+   - **Sin formulario utilizable, pero con email genérico publicado en su web** (info@, contacto@, hola@, comunicacion@…), del dominio de la entidad o del dominio al que redirige su web: se envía por email.
+     - Formato: «Buenos días:», el texto aprobado sin la línea final «Contacto: …», «Un saludo,» y la firma.
+     - Asunto: «Rootflow Hydroponics · microbrotes en Madrid y ronda de inversión».
+     - Pon Canal «Email» y ese Email en la fila, y sigue como con cualquier correo enviado.
+     - Nunca rrhh@, empleo@, pedidos@, reservas@, atención al cliente ni direcciones personales de comerciales.
+   - **Nada de lo anterior** (CAPTCHA visible, web caída o solo emails personales o de otras empresas): Mensaje «Bloqueado», Responsable «Pedro» y el motivo en Notas.
+4. **Mapa de campos.** Escribe un JSON en el directorio temporal (formato al principio de `formularios_web.js`) con solo estos datos:
+   - Nombre: «Pedro Domecq Vergara». Si hay nombre y apellidos por separado: «Pedro» y «Domecq Vergara».
+   - Empresa: «Rootflow Hydroponics, S.L.». Cargo: «Cofundador». Ciudad o provincia: «Madrid». País: «España».
+   - Email: p.domecq@rootflow.es. Teléfono: «+34 638 161 990», o «638161990» si el campo no admite prefijo.
+   - Asunto, si lo piden: «Rootflow Hydroponics · microbrotes en Madrid y ronda de inversión».
+   - Mensaje: el texto aprobado, tal cual.
+   - Desplegable de motivo: la opción más cercana a «Inversión», «Colaboración», «Información general» u «Otros». Nunca «Pedido», «Presupuesto», «Reclamación» ni «Trabaja con nosotros».
+   - Casilla obligatoria de política de privacidad o aviso legal: se marca. Casillas de newsletter, publicidad o comunicaciones comerciales: nunca.
+   - Si un campo obligatorio pide algo que no está en esta lista (CIF, dirección, presupuesto…), no lo inventes: Mensaje «Bloqueado» y el motivo en Notas.
+5. **Prueba primero.** `enviar <url> <mapa.json> <captura.png> --prueba`, y mira la captura con Read. Cada campo tiene que tener lo que toca y la casilla de privacidad tiene que estar marcada.
+6. **Envío.** El mismo comando sin `--prueba`. Lee el `veredicto`:
+   - **ok**:
+     - Mensaje «Enviado» y Estado «Contactado».
+     - «1er contacto» y «Último contacto» = hoy.
+     - «Fecha próxima acción» a +7 días hábiles.
+     - En el Historial: «Enviado por formulario: <url>», con la frase de confirmación de la web.
+   - **error**:
+     - Mensaje «Bloqueado».
+     - En Notas, el aviso que da la web.
+     - No lo reintentes el mismo día.
+   - **dudoso**:
+     - No lo reintentes nunca: podría duplicarse.
+     - Mensaje «Bloqueado».
+     - Nota: «Enviado sin confirmación visible. Mira si llega acuse a p.domecq@rootflow.es antes de repetir».
+     - Si llega el acuse, el paso 2.4 lo resuelve.
+   - **captcha**: Mensaje «Bloqueado», Responsable «Pedro».
+7. Vacía el bloque «Próximo mensaje» y apunta en el Historial por qué canal salió.
+
 ### 5. Seguimientos que tocan hoy
 Días hábiles de lunes a viernes. Se cuentan desde «Último contacto» y solo cuando el último mensaje del hilo es nuestro.
 
@@ -169,7 +214,8 @@ Días hábiles de lunes a viernes. Se cuentan desde «Último contacto» y solo 
 | 2 toques | +10 días hábiles desde F2 | F3, cierre amable |
 | 3 toques sin respuesta | al día siguiente de F3 | Estado «Sin respuesta», «Fecha próxima acción» a +6 meses, sin mensaje |
 | En conversación y la pelota en su tejado | +5 días hábiles | R-RECORDATORIO, corto y en el mismo hilo |
-| Canal Formulario, Llamada, Evento o Intro sin email | en su fecha | Tarea para Pedro en «Próxima acción», sin mensaje |
+| Formulario enviado, sin respuesta | +7 días hábiles | Si su web publica un email genérico, F1 por email («le escribí por el formulario de su web»). Si no, tarea para Pedro |
+| Canal Llamada, Evento o Intro sin email | en su fecha | Tarea para Pedro en «Próxima acción», sin mensaje |
 
 Todo seguimiento va al mismo hilo (`replyThreadId`) y en «Para revisar».
 
@@ -181,8 +227,9 @@ Hasta los límites diarios de `config.md`, sin repetir entidades. Orden: Tier A,
   - Personalizado con su «Ángulo» y su «Contacto» si lo hay. Primera frase concreta sobre ellos.
   - Máximo 150 palabras y una sola petición: una llamada de 20 minutos.
 - **Canal Formulario web**, con Responsable «Agente»:
-  - Texto FORM listo para pegar, de menos de 1.000 caracteres.
-  - Responsable pasa a «Pedro» y «Próxima acción» = «Pegar en el formulario: <url>».
+  - Antes de redactar, mira la web con `formularios_web.js inspeccionar` (ver «Formularios web»).
+  - Formulario sin CAPTCHA visible, o email genérico publicado: texto FORM de menos de 1.000 caracteres, con «Para:» = la URL del formulario o el email. Responsable sigue «Agente».
+  - CAPTCHA visible, web caída o sin forma de contacto: texto FORM igualmente, Responsable «Pedro» y «Próxima acción» = «Pegar en el formulario: <url> (tiene CAPTCHA)» o el motivo.
 - **Canal Intro cálida**: texto INTRO, un párrafo reenviable para quien haga la presentación. Responsable «Pedro».
 - **Canal Evento o Llamada**: solo una línea en «Próxima acción» con el ángulo. Sin texto largo.
 - **Tier C**: solo si `config.md` lo permite.
@@ -200,7 +247,7 @@ Al dejar un mensaje preparado: Mensaje «Para revisar» y una línea en el Histo
 **Novedades:** respuestas nuevas y cambios de estado (entidad: antes → después, una línea cada una)
 **Enviado hoy:** n (lista corta)
 **Para revisar:** n mensajes (los más urgentes primero)
-**Te toca a ti:** formularios por pegar, llamadas, intros, NDA, enlaces o huecos que faltan
+**Te toca a ti:** formularios con CAPTCHA, llamadas, intros, NDA, enlaces o huecos que faltan
 **Avisos:** rebotes, posibles inversores nuevos, cualquier cosa rara
 ```
 
@@ -234,4 +281,5 @@ Hilo: <Thread ID o «nuevo»>
   - `notion-update-page` para propiedades (`update_properties`) y contenido (`update_content` o `replace_content` solo dentro de la ficha).
   - Fechas: `"date:Último contacto:start": "AAAA-MM-DD"`.
 - **Gmail:** `search_threads`, `get_thread` (PLAIN_TEXT), `send_message` (solo en el paso 4). No uses `create_draft`: la revisión se hace en Notion.
+- **Navegador:** `preparar_navegador.sh` una vez por sesión y `formularios_web.js` (`inspeccionar` y `enviar`), solo para formularios web aprobados.
 - Si una herramienta falla, reinténtalo una vez. Si vuelve a fallar, sigue con lo demás y cuéntalo en Avisos.
