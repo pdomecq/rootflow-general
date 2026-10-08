@@ -225,7 +225,7 @@ Hasta los límites diarios de `config.md`, sin repetir entidades. Orden: Tier A,
 - **Canal Email**, con Email y Responsable «Agente»:
   - Pitch inicial con la plantilla de su tipo (`plantillas.md`).
   - Personalizado con su «Ángulo» y su «Contacto» si lo hay. Primera frase concreta sobre ellos.
-  - Máximo 150 palabras y una sola petición: una llamada de 20 minutos.
+  - Máximo 175 palabras. Una petición principal (la llamada de 20 minutos) seguida de la línea de material disponible de la plantilla (dossier, modelo con NDA, visita).
 - **Canal Formulario web**, con Responsable «Agente»:
   - Antes de redactar, mira la web con `formularios_web.js inspeccionar` (ver «Formularios web»).
   - Formulario sin CAPTCHA visible, o email genérico publicado: texto FORM de menos de 1.000 caracteres, con «Para:» = la URL del formulario o el email. Responsable sigue «Agente».
