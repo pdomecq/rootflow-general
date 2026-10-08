@@ -14,6 +14,7 @@ Los ajustes que Pedro cambia sin tocar el repositorio están en el apartado **Aj
 
 - interruptor de envío;
 - enlaces al deck y al NDA;
+- enlace de reservas (agenda de citas de Google Calendar, con Google Meet);
 - novedades que se pueden contar;
 - huecos de agenda.
 

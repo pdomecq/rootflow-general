@@ -66,7 +66,7 @@ Todo lo demás (leer, clasificar, actualizar Notion y preparar mensajes) se hace
 
 ### 0. Contexto
 - Fecha de hoy en hora de Madrid.
-- Lee la página hub de Notion (apartado «Ajustes del agente»): enlaces al deck y al NDA, novedades que se pueden contar y huecos de agenda.
+- Lee la página hub de Notion (apartado «Ajustes del agente»): enlaces al deck, al NDA y a la página de reservas, novedades que se pueden contar y huecos de agenda.
 - Decide el modo de envío.
 
 ### 1. Cargar el pipeline
@@ -97,7 +97,18 @@ Construye un mapa de dominios con el Email de cada fila y el dominio de su Web.
      - Pon «1er contacto» si estaba vacío.
      - Actualiza «Último contacto» y guarda el hilo.
 4. **Confirmaciones de formularios web.** Un acuse automático de una entidad del mapa significa que Pedro envió el formulario. Pasa la fila a «Contactado» si estaba en «Por contactar».
-5. **Posibles inversores nuevos.**
+5. **Reuniones reservadas con el enlace de reservas.**
+   - `search_threads` con `newer_than:3d from:calendar-notification@google.com`. Si no sale nada, prueba `newer_than:3d (reservado OR reserva OR booked OR cita)`.
+   - En el aviso de Google Calendar vienen el nombre y el email de quien reserva, el día y la hora. Cruza ese email (no el remitente, que es Google) con el mapa de dominios.
+   - **Reserva de una fila de la tabla:**
+     - Estado «Reunión de pitch», solo si es un avance.
+     - «Fecha próxima acción» = día de la reunión.
+     - «Próxima acción» = «Reunión el dd/mm a las hh:mm (Google Meet)».
+     - Una línea en el Historial.
+     - No prepares mensaje: Google ya le ha enviado la invitación.
+   - **Cancelación:** apúntalo en el Historial y prepara un R-REUNION para revisar.
+   - **Reserva de alguien que no está en la tabla:** no la añades. La listas en el parte como posible inversor nuevo.
+6. **Posibles inversores nuevos.**
    - Correos de remitentes que no están en el mapa y hablan de inversión, ronda, Rootflow o el deck. Ignora newsletters y notificaciones.
    - No los añades a la tabla. Los listas en el parte para que Pedro decida.
 
@@ -113,7 +124,7 @@ Lee el mensaje entero y aplica la primera regla que encaje. Las demás señales 
 | Respuesta sin señal clara o pregunta suelta | Respondido | Respuesta R-RESPUESTA para revisar |
 | Interés general («nos interesa», «cuéntame más», «mándame el deck») | Interesado | R-INTERES con el enlace al deck y la propuesta de llamada |
 | Pide datos concretos, deck, modelo o documentación | Más info solicitada | R-INFO con lo que está en `datos.md`. Si pide el modelo, R-NDA |
-| Propone o acepta reunión o llamada | Reunión de pitch | R-REUNION con huecos (los de Ajustes o `[HUECO 1]`/`[HUECO 2]`) |
+| Propone o acepta reunión o llamada | Reunión de pitch | R-REUNION: con el enlace de reservas de Ajustes, o con huecos si no hay enlace. Si propone día y hora, se acepta y Pedro crea la invitación |
 | Pregunta por valoración, condiciones, cap table o su ticket, quiere visitar o pide el NDA | Muy interesado | R-NDA o R-VISITA. Apunta el importe en «Ticket indicado» |
 | Devuelve el NDA firmado o lo confirma | NDA firmado | Aviso a Pedro: enviar el modelo V17. Mensaje R-POSTNDA para revisar |
 | Visita fijada o hecha | Visita | Aviso a Pedro. Seguimiento post-visita a las 48 h |

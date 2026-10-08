@@ -168,6 +168,7 @@ Adapta tú o usted al primer correo.
 
 **F1 · a los 4 días hábiles**
 Hola[ Nombre]: le reescribo por si mi correo se quedó perdido. ¿Le encaja una llamada de 20 minutos esta semana o la próxima? Si no es para ustedes, dígamelo sin problema y no insisto. Gracias.
+Si hay «Enlace de reservas» en Ajustes, añade después de la pregunta: «Si le resulta más cómodo, puede elegir hueco aquí: <enlace>.»
 
 **F2 · con una novedad real (la de Ajustes)**
 Hola[ Nombre]: le actualizo por si ahora encaja mejor. [NOVEDAD EN UNA FRASE]. La ronda sigue abierta y queremos cerrarla antes de final de octubre. ¿Hablamos 20 minutos?
@@ -183,17 +184,24 @@ Hola[ Nombre]: no quiero insistir más, así que doy el hilo por cerrado. Si en 
 ## Respuestas
 Siempre en el hilo, con copia a los socios (ver `config.md`).
 
+**`[RESERVA]`: cómo se propone la llamada de 20 minutos**
+- Si en Ajustes hay «Enlace de reservas»: «Puedes elegir el hueco que mejor te venga aquí: <enlace>. Al reservar te llega la invitación con Google Meet.» Adapta tú o usted al hilo.
+- Si no hay enlace: «¿Te viene bien [HUECO 1] o [HUECO 2]?», con los huecos de Ajustes.
+- Solo para la llamada de 20 minutos. La revisión del modelo (45 minutos) y la visita al cultivo van siempre con huecos.
+- El primer correo de presentación no lleva enlace de reservas: pide la llamada y nada más.
+
 **R-INTERES**
-Hola[ Nombre]: gracias por responder. Te paso el dossier de la compañía: [ENLACE DECK]. Lo más útil es una llamada de 20 minutos para contártelo y resolver dudas. ¿Te viene bien [HUECO 1] o [HUECO 2]? Y si te apetece verlo en persona, el cultivo está en Madrid.
+Hola[ Nombre]: gracias por responder. Te paso el dossier de la compañía: [ENLACE DECK]. Lo más útil es una llamada de 20 minutos para contártelo y resolver dudas. [RESERVA] Y si te apetece verlo en persona, el cultivo está en Madrid.
 
 **R-REUNION**
-Perfecto, gracias. Te propongo [HUECO 1] o [HUECO 2], por videollamada o en persona en Madrid. Dime qué prefieres y te mando la convocatoria.
+- Si acepta la llamada sin proponer fecha: «Perfecto, gracias. [RESERVA] Si prefieres que nos veamos en persona en Madrid, dímelo y buscamos fecha.»
+- Si propone día y hora concretos: «Perfecto, [DÍA Y HORA] me va bien. Te mando ahora la invitación con Google Meet.» El agente no crea eventos: «Próxima acción» = «Crear la invitación del [día y hora]» para Pedro.
 
 **R-INFO**
 Hola[ Nombre]: te respondo por puntos.
 - [RESPUESTA 1, con datos de datos.md]
 - [RESPUESTA 2]
-Te dejo también el dossier: [ENLACE DECK]. ¿Lo vemos en una llamada de 20 minutos?
+Te dejo también el dossier: [ENLACE DECK]. ¿Lo vemos en una llamada de 20 minutos? [RESERVA]
 
 **R-NDA**
 Gracias por el interés. Para compartir el modelo financiero y el detalle de clientes trabajamos con un NDA sencillo: [ENLACE NDA]. En cuanto esté firmado por las dos partes te enviamos el modelo y lo revisamos juntos en 45 minutos. Y si te apetece, ven a ver el cultivo: [HUECO 1] o [HUECO 2].
@@ -208,7 +216,7 @@ Encantados de enseñártelo. En 45 minutos ves la sala de cultivo, cortamos una 
 Gracias por responder y por la claridad, lo entiendo perfectamente. Si más adelante cambia vuestro foco, nos encantará retomarlo. Un saludo.
 
 **R-RESPUESTA** (respuesta sin señal clara)
-Contesta a lo que pregunten, solo con datos de `datos.md`, y cierra con la propuesta de una llamada de 20 minutos.
+Contesta a lo que pregunten, solo con datos de `datos.md`, y cierra con la propuesta de una llamada de 20 minutos y [RESERVA].
 
 **R-RECORDATORIO** (en conversación, la pelota en su tejado)
 Hola[ Nombre]: te escribo por si se quedó pendiente lo último. [LO PENDIENTE EN UNA LÍNEA]. ¿Cómo lo ves?
