@@ -39,6 +39,9 @@
 
 ## La ronda
 - **100.000 € de inversor privado por el 10 % del capital**: ampliación con prima, 900.000 € pre-money y 1 M€ post-money.
+- **En el primer contacto no se dice ni el porcentaje ni la valoración** (pitch, formulario, intro y seguimientos). Se dice «100.000 € en capital».
+  - El 10 % y los 900.000 € pre-money son la referencia de partida de Pedro para la conversación.
+  - El agente no negocia porcentaje ni valoración: si un inversor pregunta, lo pasa a Pedro.
 - Más **100.000 € de ENISA AgroInnpulso**, en tramitación. **Total: 200.000 €.**
   - Cubre la necesidad del plan, 173.048 €, con cobertura de 1,16×.
   - ENISA exige fondos propios iguales o mayores que el préstamo. Por eso el tramo privado entra en capital: cada euro del inversor desbloquea otro euro público.

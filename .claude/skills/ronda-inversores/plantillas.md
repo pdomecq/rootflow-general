@@ -15,6 +15,7 @@
   - Máximo 175 palabras.
   - Una petición principal (la llamada de 20 minutos) y, justo después, la línea de material disponible de su plantilla: ofrece el dossier como alternativa y dice qué más tenemos.
   - Sin adjuntos ni enlaces: el dossier se manda cuando lo pidan (ver `datos.md`).
+  - Ni porcentaje ni valoración: solo «100.000 € en capital». El porcentaje se habla en la llamada (ver `datos.md`). Lo mismo en formularios, intros y seguimientos.
   - Asunto corto y concreto.
 - **La primera frase tras el saludo es sobre ellos.** Por qué les escribimos, sacado del «Ángulo» pero con palabras propias y sin cifras viejas.
 - **Nada de rayas (—), punto y coma, latinismos ni conectores formales** («asimismo», «no obstante», «por consiguiente»).
@@ -44,7 +45,7 @@ Soy Pedro Domecq, cofundador de Rootflow Hydroponics. Les escribo porque [RAZÓN
 
 Cultivamos microbrotes vivos y flores comestibles en Madrid con hidroponía LED de precisión. Cosechamos bajo pedido y entregamos en 24-48 horas a distribución y restauración, también en marca blanca.
 
-Vamos a pasar a una nave de 350 m² con 30 veces nuestra capacidad actual. Para ello abrimos una ronda de 100.000 € por el 10 % del capital, que desbloquea otros 100.000 € de ENISA. Buscamos un socio que además de capital aporte canal o conocimiento del sector, sin ceder el control.
+Vamos a pasar a una nave de 350 m² con 30 veces nuestra capacidad actual. Para ello abrimos una ronda de 100.000 € en capital, que desbloquea otros 100.000 € de ENISA. Buscamos un socio que además de capital aporte canal o conocimiento del sector, sin ceder el control.
 
 ¿Tendría 20 minutos esta semana o la próxima para contárselo? Si lo prefiere, le envío antes el dossier de la compañía. También tenemos el modelo financiero completo, que compartimos con NDA, y puede venir a ver el cultivo en Madrid.
 
@@ -53,7 +54,7 @@ Un saludo,
 ---
 
 ## P-FAMILY
-**Asunto:** Rootflow · 10 % de un productor agroalimentario de Madrid, con suelo de 1,5×
+**Asunto:** Rootflow · entrar en el capital de un productor agroalimentario de Madrid, con suelo de 1,5×
 
 Estimado[ Nombre]:
 
@@ -61,7 +62,7 @@ Soy Pedro Domecq, cofundador de Rootflow Hydroponics. Le escribo por si encaja e
 
 Producimos microbrotes vivos en Madrid con hidroponía LED y cosecha bajo pedido, y ya facturamos a distribución. El siguiente paso es una nave de 350 m² con 30 veces más capacidad.
 
-Abrimos 100.000 € por el 10 % del capital, que desbloquean otros 100.000 € de ENISA. El inversor tiene salida pactada desde el año 4 y un suelo de 1,5× sobre lo aportado, sin cesión de control. El plan base llega a 1,72 M€ de ingresos y 714 k€ de EBITDA en el año 5, y el escenario conservador devuelve 2,7×.
+Abrimos una ronda de 100.000 € en capital, que desbloquea otros 100.000 € de ENISA. El inversor tiene salida pactada desde el año 4 y un suelo de 1,5× sobre lo aportado, sin cesión de control. El plan base llega a 1,72 M€ de ingresos y 714 k€ de EBITDA en el año 5, y el escenario conservador devuelve 2,7×.
 
 Es un activo real que se puede visitar. ¿Le viene bien una llamada de 20 minutos? Si lo prefiere, le envío antes el dossier de la compañía. También tenemos el modelo financiero completo, que compartimos con NDA.
 
@@ -78,7 +79,7 @@ Te escribo porque [RAZÓN CONCRETA: lo que ha montado, en qué invierte o qué r
 
 En Rootflow cultivamos microbrotes vivos y flores comestibles en Madrid y los servimos cortados bajo pedido en 24-48 horas. Somos tres socios, ya facturamos y llevamos la operación con un ERP propio.
 
-Abrimos 100.000 € por el 10 % para pasar a una nave de 350 m² con 30 veces más capacidad, y ENISA pone otros 100.000 €. El inversor tiene salida pactada desde el año 4 y un suelo de 1,5×. En el caso conservador el plan devuelve 2,7× lo invertido.
+Abrimos una ronda de 100.000 € en capital para pasar a una nave de 350 m² con 30 veces más capacidad, y ENISA pone otros 100.000 €. El inversor tiene salida pactada desde el año 4 y un suelo de 1,5×. En el caso conservador el plan devuelve 2,7× lo invertido.
 
 Lo mejor es verlo. ¿Te apetece un café o una visita al cultivo? Si lo prefieres, te mando antes el dossier. También tenemos el modelo financiero completo, que compartimos con NDA.
 
@@ -95,7 +96,7 @@ Os escribo para presentar Rootflow Hydroponics por si encaja en vuestro próximo
 
 Cultivamos microbrotes vivos y flores comestibles en Madrid con hidroponía LED, cosecha bajo pedido y entrega en 24-48 horas. Ya facturamos a distribución y tenemos ERP propio.
 
-Levantamos 100.000 € por el 10 % del capital, que desbloquean otros 100.000 € de ENISA, para pasar a una nave de 350 m² con 30 veces más capacidad. El inversor tiene salida pactada desde el año 4 y un suelo de 1,5×.
+Levantamos 100.000 € en capital, que desbloquean otros 100.000 € de ENISA, para pasar a una nave de 350 m² con 30 veces más capacidad. El inversor tiene salida pactada desde el año 4 y un suelo de 1,5×.
 
 ¿Cuál es el siguiente paso para presentarnos? Si os resulta útil, os mando ya el dossier. También tenemos el modelo financiero completo, que compartimos con NDA, y podéis venir a ver el cultivo en Madrid.
 
@@ -112,7 +113,7 @@ Les escribo para presentar Rootflow Hydroponics. [RAZÓN CONCRETA: su tesis o un
 
 Cultivamos microbrotes vivos y flores comestibles en Madrid con hidroponía LED de precisión, cosecha bajo pedido y ERP propio. Ya vendemos a distribución y el plan añade una línea de reparto directo a restaurantes de ocho barrios de Madrid.
 
-Abrimos 100.000 € por el 10 % del capital (900.000 € pre-money), que desbloquean otros 100.000 € de ENISA, para pasar a una nave de 350 m² con 30 veces más capacidad. El plan base llega a 1,72 M€ de ingresos y un 42 % de margen EBITDA en el año 5.
+Abrimos 100.000 € en capital, que desbloquean otros 100.000 € de ENISA, para pasar a una nave de 350 m² con 30 veces más capacidad. El plan base llega a 1,72 M€ de ingresos y un 42 % de margen EBITDA en el año 5.
 
 ¿Con quién de su equipo puedo revisar el encaje? Si les resulta útil, les envío antes el dossier de la compañía. También tenemos el modelo financiero completo, que compartimos con NDA, y pueden venir a ver el cultivo en Madrid.
 
@@ -140,7 +141,7 @@ Un saludo,
 ---
 
 ## P-EN
-**Subject:** Rootflow · living microgreens in Madrid, €100k for 10%
+**Subject:** Rootflow · living microgreens in Madrid, €100k equity round
 
 Hi[ Name],
 
@@ -148,7 +149,7 @@ I'm Pedro Domecq, co-founder of Rootflow Hydroponics. [SPECIFIC REASON ABOUT THE
 
 We grow living microgreens and edible flowers in Madrid with precision LED hydroponics. We harvest to order and deliver within 24 to 48 hours to distributors and restaurants. We are already invoicing and run our own ERP.
 
-We are raising €100,000 for 10% of the company, which unlocks a further €100,000 loan from ENISA, the Spanish public lender. It funds a move to a 350 m² facility with 30 times our current capacity. Investors get an agreed exit from year 4 and a 1.5x floor, and the conservative case returns 2.7x.
+We are raising €100,000 in equity, which unlocks a further €100,000 loan from ENISA, the Spanish public lender. It funds a move to a 350 m² facility with 30 times our current capacity. Investors get an agreed exit from year 4 and a 1.5x floor, and the conservative case returns 2.7x.
 
 Would you have 20 minutes for a call this week or next? If you prefer, I can send you our deck first. We also have the full financial model, which we share under NDA, and you are welcome to visit the farm in Madrid.
 
@@ -159,10 +160,10 @@ Best regards,
 ## FORM · texto para formularios web (menos de 1.000 caracteres)
 Lo envía el agente: rellena el formulario o, si la web no tiene uno utilizable, lo manda al email genérico que publique (ver «Formularios web» en `SKILL.md`).
 
-Rootflow Hydroponics (Madrid, 2026) cultiva microbrotes vivos y flores comestibles con hidroponía LED de precisión, con cosecha bajo pedido y entrega en 24-48 h a distribución y restauración. Ya facturamos, tenemos dos distribuidores con pedido semanal y un ERP propio. Levantamos 100.000 € por el 10 % del capital (900.000 € pre-money), que desbloquean otros 100.000 € de ENISA, para pasar a una nave de 350 m² con 30 veces más capacidad. Plan base: 1,72 M€ de ingresos y 714 k€ de EBITDA en el año 5. Salida pactada para el inversor desde el año 4 y suelo de 1,5×. [UNA FRASE DE ENCAJE CON LA ENTIDAD]. Tenemos dossier y modelo financiero completo (este con NDA), y el cultivo se puede visitar en Madrid. Contacto: Pedro Domecq, p.domecq@rootflow.es, +34 638 161 990.
+Rootflow Hydroponics (Madrid, 2026) cultiva microbrotes vivos y flores comestibles con hidroponía LED de precisión, con cosecha bajo pedido y entrega en 24-48 h a distribución y restauración. Ya facturamos, tenemos dos distribuidores con pedido semanal y un ERP propio. Levantamos 100.000 € en capital, que desbloquean otros 100.000 € de ENISA, para pasar a una nave de 350 m² con 30 veces más capacidad. Plan base: 1,72 M€ de ingresos y 714 k€ de EBITDA en el año 5. Salida pactada para el inversor desde el año 4 y suelo de 1,5×. [UNA FRASE DE ENCAJE CON LA ENTIDAD]. Tenemos dossier y modelo financiero completo (este con NDA), y el cultivo se puede visitar en Madrid. Contacto: Pedro Domecq, p.domecq@rootflow.es, +34 638 161 990.
 
 ## INTRO · párrafo para quien nos presente
-Te paso el contacto de Pedro Domecq, cofundador de Rootflow Hydroponics. Cultivan microbrotes vivos en Madrid con hidroponía LED y ya venden a distribución. Están levantando 100.000 € por el 10 % para pasar a una nave con 30 veces más capacidad, junto con otros 100.000 € de ENISA. Creo que te puede encajar por [RAZÓN]. ¿Os pongo en contacto? Su correo es p.domecq@rootflow.es.
+Te paso el contacto de Pedro Domecq, cofundador de Rootflow Hydroponics. Cultivan microbrotes vivos en Madrid con hidroponía LED y ya venden a distribución. Están levantando 100.000 € en capital para pasar a una nave con 30 veces más capacidad, junto con otros 100.000 € de ENISA. Creo que te puede encajar por [RAZÓN]. ¿Os pongo en contacto? Su correo es p.domecq@rootflow.es.
 
 ---
 
@@ -177,7 +178,7 @@ Si hay «Enlace de reservas» en Ajustes, añade después de la pregunta: «Si l
 Hola[ Nombre]: le actualizo por si ahora encaja mejor. [NOVEDAD EN UNA FRASE]. La ronda sigue abierta y queremos cerrarla antes de final de octubre. ¿Hablamos 20 minutos?
 
 **F2-B · sin novedad**
-Hola[ Nombre]: por si le resulta útil, le resumo la operación en una línea. 100.000 € por el 10 % de Rootflow, con salida pactada desde el año 4 y suelo de 1,5×, junto con otros 100.000 € de ENISA. Si le encaja, le mando el dossier.
+Hola[ Nombre]: por si le resulta útil, le resumo la operación en una línea. Una ronda de 100.000 € en capital, con salida pactada desde el año 4 y suelo de 1,5×, junto con otros 100.000 € de ENISA. Si le encaja, le mando el dossier.
 
 **F3 · último toque**
 Hola[ Nombre]: no quiero insistir más, así que doy el hilo por cerrado. Si en algún momento le encaja hablar de Rootflow, aquí me tiene. Gracias por su tiempo.

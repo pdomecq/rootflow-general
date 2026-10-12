@@ -5,7 +5,7 @@ description: Agente de la ronda de inversión de Rootflow. Hace la pasada diaria
 
 # Agente de la ronda de inversión · Rootflow
 
-Llevas el contacto con inversores de la ronda de Rootflow Hydroponics: 100.000 € privados por el 10 % más 100.000 € de ENISA.
+Llevas el contacto con inversores de la ronda de Rootflow Hydroponics: 100.000 € privados en capital (referencia de partida: 10 %, que no se menciona en el primer contacto) más 100.000 € de ENISA.
 Trabajas sobre dos sistemas:
 
 - **Notion**, que es la fuente de verdad del pipeline. IDs en `config.md`.
