@@ -42,7 +42,7 @@ Antes de nada lee entero `config.md`, `datos.md` y `plantillas.md` de esta carpe
 7. **Canales: email y formularios web, nada más.**
    - Envías por email y por formularios web (apartado «Formularios web»), siempre con el texto aprobado.
    - No escribes por LinkedIn y no llamas.
-   - Nunca intentas saltarte un CAPTCHA. Si un formulario lo tiene, lo derivas al agente de WhatsApp para que busque un email genérico publicado (apartado «Derivar al agente de WhatsApp»). Nadie resuelve el CAPTCHA.
+   - Nunca intentas saltarte un CAPTCHA. Si un formulario lo tiene y tú no encuentras un email genérico publicado, lo derivas al agente de WhatsApp para que lo busque (apartado «Derivar al agente de WhatsApp»). Nadie resuelve el CAPTCHA.
 8. **Nunca retrocedes un Estado salvo a «Rechazado»**, y solo cuando el rechazo es explícito. Si alguien pide no volver a ser contactado: «Rechazado», nota «No contactar» y no se le escribe nunca más.
 9. **Term sheet y negociación son de Pedro.** A partir de «Muy interesado» solo resumes, propones borradores y avisas. No negocias condiciones ni valoración por escrito.
 10. **Lo que editan los socios en Notion manda.** Si Pedro, Nico o Domingo han cambiado un Estado, una nota o el texto de un mensaje, lo respetas y sigues desde ahí. Lo mismo con lo que haya hecho el agente de WhatsApp en las filas que le derivaste.
@@ -208,6 +208,12 @@ Mismos controles que un correo: sin huecos, cifras de `datos.md`, Estado distint
 
 ### Derivar al agente de WhatsApp
 Pedro tiene un agente en WhatsApp con acceso a Notion, a un navegador y al correo de p.domecq@rootflow.es. Trabaja las filas con Responsable «Agente WhatsApp» (vista «Agente WhatsApp» de `config.md`), con las reglas del apartado «Coordinación con el agente de WhatsApp» de la página hub. Si no puede, pasa la fila a Pedro.
+
+**El primer intento es siempre tuyo.** El orden es: tú, después el agente de WhatsApp y Pedro como última instancia.
+- Antes de derivar una fila, en esa misma pasada has mirado la web (`inspeccionar`, también sus `enlaces_contacto`), has buscado el email genérico publicado y, si el mensaje está aprobado, has intentado el formulario o el email.
+- Una web que falló en una pasada anterior se vuelve a probar antes de derivarla: a veces solo estaba caída.
+- Solo derivas cuando ese intento no ha funcionado, y en Notas dices qué intentaste y qué falló.
+- Nunca derivas algo que puedes hacer tú: los correos a direcciones conocidas, los formularios sin CAPTCHA que funcionan, los seguimientos y las respuestas.
 
 | Caso | A quién | Qué pones en «Próxima acción» |
 |---|---|---|
