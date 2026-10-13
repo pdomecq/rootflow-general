@@ -42,10 +42,10 @@ Antes de nada lee entero `config.md`, `datos.md` y `plantillas.md` de esta carpe
 7. **Canales: email y formularios web, nada más.**
    - Envías por email y por formularios web (apartado «Formularios web»), siempre con el texto aprobado.
    - No escribes por LinkedIn y no llamas.
-   - Nunca intentas saltarte un CAPTCHA. Si un formulario lo tiene, se lo dejas a Pedro.
+   - Nunca intentas saltarte un CAPTCHA. Si un formulario lo tiene, lo derivas al agente de WhatsApp para que busque un email genérico publicado (apartado «Derivar al agente de WhatsApp»). Nadie resuelve el CAPTCHA.
 8. **Nunca retrocedes un Estado salvo a «Rechazado»**, y solo cuando el rechazo es explícito. Si alguien pide no volver a ser contactado: «Rechazado», nota «No contactar» y no se le escribe nunca más.
 9. **Term sheet y negociación son de Pedro.** A partir de «Muy interesado» solo resumes, propones borradores y avisas. No negocias condiciones ni valoración por escrito.
-10. **Lo que editan los socios en Notion manda.** Si Pedro, Nico o Domingo han cambiado un Estado, una nota o el texto de un mensaje, lo respetas y sigues desde ahí.
+10. **Lo que editan los socios en Notion manda.** Si Pedro, Nico o Domingo han cambiado un Estado, una nota o el texto de un mensaje, lo respetas y sigues desde ahí. Lo mismo con lo que haya hecho el agente de WhatsApp en las filas que le derivaste.
 11. **No tocas el repositorio.** El estado vive en Notion. No haces commits ni pushes en esta tarea.
 
 ## Modo de envío
@@ -93,7 +93,7 @@ Construye un mapa de dominios con el Email de cada fila y el dominio de su Web.
    - `search_threads` con `newer_than:3d -in:sent -category:promotions -category:social`.
    - Cruza el remitente con el mapa de dominios.
    - Si encaja con una fila, trátalo como respuesta de ese inversor y guarda el hilo.
-3. **Lo que han enviado los socios por su cuenta.**
+3. **Lo que han enviado los socios o el agente de WhatsApp por su cuenta.**
    - `search_threads` con `in:sent newer_than:3d`.
    - Si va a un dominio del mapa:
      - Si la fila estaba en «Por contactar», pásala a «Contactado».
@@ -141,6 +141,7 @@ Lee el mensaje entero y aplica la primera regla que encaje. Las demás señales 
 ### 4. Enviar lo aprobado (solo con el envío activo)
 - Los mensajes de Tipo «Intro» no se envían nunca: los reenvía Pedro. Si están en «Aprobado», recuérdaselo en el parte.
 - Los de Tipo «Formulario» se envían con el navegador: sigue el apartado «Formularios web», más abajo.
+- Las filas con Responsable «Agente WhatsApp» no las envías tú aunque estén en «Aprobado»: las envía el agente de WhatsApp.
 
 Para cada fila con Mensaje «Aprobado» y Tipo de correo:
 
@@ -175,7 +176,7 @@ Mismos controles que un correo: sin huecos, cifras de `datos.md`, Estado distint
      - Asunto: «Rootflow Hydroponics · microbrotes en Madrid y ronda de inversión».
      - Pon Canal «Email» y ese Email en la fila, y sigue como con cualquier correo enviado.
      - Nunca rrhh@, empleo@, pedidos@, reservas@, atención al cliente ni direcciones personales de comerciales.
-   - **Nada de lo anterior** (CAPTCHA visible, web caída o solo emails personales o de otras empresas): Mensaje «Bloqueado», Responsable «Pedro» y el motivo en Notas.
+   - **Nada de lo anterior** (CAPTCHA visible, web que no carga desde aquí o solo emails personales o de otras empresas): Responsable «Agente WhatsApp», el Mensaje se queda en «Aprobado», y en «Próxima acción» lo que tiene que intentar. Ver «Derivar al agente de WhatsApp».
 4. **Mapa de campos.** Escribe un JSON en el directorio temporal (formato al principio de `formularios_web.js`) con solo estos datos:
    - Nombre: «Pedro Domecq Vergara». Si hay nombre y apellidos por separado: «Pedro» y «Domecq Vergara».
    - Empresa: «Rootflow Hydroponics, S.L.». Cargo: «Cofundador». Ciudad o provincia: «Madrid». País: «España».
@@ -193,16 +194,35 @@ Mismos controles que un correo: sin huecos, cifras de `datos.md`, Estado distint
      - «Fecha próxima acción» a +7 días hábiles.
      - En el Historial: «Enviado por formulario: <url>», con la frase de confirmación de la web.
    - **error**:
-     - Mensaje «Bloqueado».
-     - En Notas, el aviso que da la web.
-     - No lo reintentes el mismo día.
+     - No lo reintentes por el formulario el mismo día.
+     - Si la web publica un email genérico, envíalo por email como en el paso 3 y apunta el error del formulario en Notas.
+     - Si no, deriva al agente de WhatsApp con el aviso que da la web en Notas.
    - **dudoso**:
-     - No lo reintentes nunca: podría duplicarse.
-     - Mensaje «Bloqueado».
-     - Nota: «Enviado sin confirmación visible. Mira si llega acuse a p.domecq@rootflow.es antes de repetir».
-     - Si llega el acuse, el paso 2.4 lo resuelve.
-   - **captcha**: Mensaje «Bloqueado», Responsable «Pedro».
+     - Mira `respuestas`. Si no hay ninguna petición al servidor del formulario (ninguna, o solo a `challenges.cloudflare.com`) y la captura muestra el formulario todavía relleno, no salió: trátalo como **error**.
+     - Si hubo petición al servidor del formulario, no lo reintentes nunca: podría duplicarse.
+       - Mensaje «Bloqueado».
+       - Nota: «Enviado sin confirmación visible. Mira si llega acuse a p.domecq@rootflow.es antes de repetir».
+       - Si llega el acuse, el paso 2.4 lo resuelve.
+   - **captcha**: deriva al agente de WhatsApp para que busque un email genérico publicado.
 7. Vacía el bloque «Próximo mensaje» y apunta en el Historial por qué canal salió.
+
+### Derivar al agente de WhatsApp
+Pedro tiene un agente en WhatsApp con acceso a Notion, a un navegador y al correo de p.domecq@rootflow.es. Trabaja las filas con Responsable «Agente WhatsApp» (vista «Agente WhatsApp» de `config.md`), con las reglas del apartado «Coordinación con el agente de WhatsApp» de la página hub. Si no puede, pasa la fila a Pedro.
+
+| Caso | A quién | Qué pones en «Próxima acción» |
+|---|---|---|
+| La web no carga desde aquí (proxy, TLS, error del servidor) | Agente WhatsApp | Enviar el texto por el formulario de <url>, o buscar el canal si aún no se sabe |
+| Formulario que falla y sin email genérico publicado | Agente WhatsApp | Enviar por el formulario desde su navegador, o buscar un email genérico |
+| CAPTCHA visible y sin email genérico publicado | Agente WhatsApp | Buscar un email genérico publicado (contacto, aviso legal o privacidad). El CAPTCHA no se resuelve |
+| Ficha sin forma de contacto | Agente WhatsApp | Buscar un email genérico publicado. Si aparece, lo pone en Email y te devuelve la fila |
+| Intros, llamadas, NDA, negociación, aparcar o descartar | Pedro | Lo que tiene que decidir o hacer |
+
+- La fila conserva su Mensaje: si está «Aprobado», el agente de WhatsApp lo envía; si está «Para revisar», solo prepara el canal y espera la aprobación de Pedro.
+- Explica en Notas por qué la derivas («13/10: la web no carga desde el entorno de Claude»).
+- **Cada pasada, lee lo que ha hecho:**
+  - Las filas que te devuelve vuelven con Responsable «Agente». Sigues con ellas como con cualquier otra.
+  - Lo que envió por email desde p.domecq@rootflow.es lo encuentras en el paso 2.3. Rellena «Thread ID» y «Hilo Gmail» si faltan.
+  - Si lleva más de dos días hábiles sin tocar una fila derivada, dilo en el parte.
 
 ### 5. Seguimientos que tocan hoy
 Días hábiles de lunes a viernes. Se cuentan desde «Último contacto» y solo cuando el último mensaje del hilo es nuestro.
@@ -214,7 +234,7 @@ Días hábiles de lunes a viernes. Se cuentan desde «Último contacto» y solo 
 | 2 toques | +10 días hábiles desde F2 | F3, cierre amable |
 | 3 toques sin respuesta | al día siguiente de F3 | Estado «Sin respuesta», «Fecha próxima acción» a +6 meses, sin mensaje |
 | En conversación y la pelota en su tejado | +5 días hábiles | R-RECORDATORIO, corto y en el mismo hilo |
-| Formulario enviado, sin respuesta | +7 días hábiles | Si su web publica un email genérico, F1 por email («le escribí por el formulario de su web»). Si no, tarea para Pedro |
+| Formulario enviado, sin respuesta | +7 días hábiles | Si su web publica un email genérico, F1 por email («le escribí por el formulario de su web»). Si no, deriva al agente de WhatsApp para que lo busque |
 | Canal Llamada, Evento o Intro sin email | en su fecha | Tarea para Pedro en «Próxima acción», sin mensaje |
 
 Todo seguimiento va al mismo hilo (`replyThreadId`) y en «Para revisar».
@@ -229,7 +249,8 @@ Hasta los límites diarios de `config.md`, sin repetir entidades. Orden: Tier A,
 - **Canal Formulario web**, con Responsable «Agente»:
   - Antes de redactar, mira la web con `formularios_web.js inspeccionar` (ver «Formularios web»).
   - Formulario sin CAPTCHA visible, o email genérico publicado: texto FORM de menos de 1.000 caracteres, con «Para:» = la URL del formulario o el email. Responsable sigue «Agente».
-  - CAPTCHA visible, web caída o sin forma de contacto: texto FORM igualmente, Responsable «Pedro» y «Próxima acción» = «Pegar en el formulario: <url> (tiene CAPTCHA)» o el motivo.
+  - CAPTCHA visible, web que no carga desde aquí o sin forma de contacto: texto FORM igualmente, Responsable «Agente WhatsApp» y en «Próxima acción» lo que tiene que buscar (ver «Derivar al agente de WhatsApp»).
+  - Sin forma de contacto y con red flags que lo dejan fuera de foco: sin texto. Responsable «Pedro» y «Próxima acción» = «Decidir si se aparca».
 - **Canal Intro cálida**: texto INTRO, un párrafo reenviable para quien haga la presentación. Responsable «Pedro».
 - **Canal Evento o Llamada**: solo una línea en «Próxima acción» con el ángulo. Sin texto largo.
 - **Tier C**: solo si `config.md` lo permite.
@@ -247,7 +268,8 @@ Al dejar un mensaje preparado: Mensaje «Para revisar» y una línea en el Histo
 **Novedades:** respuestas nuevas y cambios de estado (entidad: antes → después, una línea cada una)
 **Enviado hoy:** n (lista corta)
 **Para revisar:** n mensajes (los más urgentes primero)
-**Te toca a ti:** formularios con CAPTCHA, llamadas, intros, NDA, enlaces o huecos que faltan
+**Agente de WhatsApp:** lo que hizo desde la última pasada y lo que le derivas hoy
+**Te toca a ti:** llamadas, intros, NDA, decisiones, enlaces o huecos que faltan, y lo que el agente de WhatsApp no pudo hacer
 **Avisos:** rebotes, posibles inversores nuevos, cualquier cosa rara
 ```
 

@@ -9,6 +9,9 @@
 | Página «Parte diario del agente» | `3f2ebf6d1b59810fbc3ee2884b5d3696` |
 | Vista «Para revisar» | `view://3f2ebf6d-1b59-81a8-a8ee-000c7ed39815` |
 | Vista «Tablero» | `view://3f2ebf6d-1b59-8155-8e47-000cdca220ea` |
+| Vista «Agente WhatsApp» (Responsable = «Agente WhatsApp») | `view://3f8ebf6d-1b59-81d4-8f38-000c3d38da04` |
+
+Las reglas del agente de WhatsApp de Pedro están en el apartado **Coordinación con el agente de WhatsApp** de la página hub. Las lee él, y tú las respetas al derivarle filas.
 
 Los ajustes que Pedro cambia sin tocar el repositorio están en el apartado **Ajustes del agente** de la página hub:
 
